@@ -1,6 +1,3 @@
-<?php
-	session_start();	
-?>
 <html>
 <head>
 <title>Makanan Anda Diet Anda</title>
@@ -24,37 +21,13 @@
 <div id="header">
 </div>
 <div id="menu">
-<!--<ul>
+<ul>
 <li class="active"><a href="index.php" accesskey="1" title="">Home</a></li>
 <li><a href="TipsKesehatan.php" accesskey="2" title="">Tips Kesehatan</a></li>
 <li><a href="Nutrisi.php" accesskey="3" title="">Nutrisi Makanan</a></li>
 <li><a href="FAQ.php" accesskey="4" title="">FAQ </a></li>
 <li><a href="register.php" accesskey="5" title="">Register</a></li>
-</ul>-->
-<?php 
-			  if(empty($_SESSION['user']))
-			  {
-				echo"
-              <ul>
-                <li class='active'><a href='index.php' accesskey='1' title=''>Home</a></li>
-				<li><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a></li>
-				<li><a href='Nutrisi.php' accesskey='3' title=''>Nutrisi Makanan</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
-				<li><a href='register.php' accesskey='5' title=''>Register</a></li>
-              </ul>";
-			  }
-			  else
-			  {
-				echo"
-			  <ul>
-				<li class='active'><a href='index.php' accesskey='1' title=''>Home</a></li>
-				<li><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a></li>
-				<li><a href='Nutrisi.php' accesskey='3' title=''>Nutrisi Makanan</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
-			  }
-			  ?>
+</ul>
 </div>
 <div id="content">
 <div id="colOne">
@@ -123,9 +96,6 @@
 				</div>";
 		}
 ?>
-
-
-			  
 <h2>Recent Updates</h2>
 <h3>Berat Badan Ideal</h3>
 <p>Nutrisi<a href="#"> More...</a></p>
@@ -136,21 +106,19 @@
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
 </div>
 <div id="colFour">
-<h2>Selamat datang di Situs Kami</h2>
-<p><em><strong>Makanan Anda Diet Anda</strong></em>
-adalah program dimana pentingnya kesadaran masyarakat atas kesehatan tubuh, memakan 
-makanan sehat berarti anda peduli dengan kesehatan anda. Karena penyakit yang timbul 
-tidak sadar berasal dari makanan yang kita makan sehari-hari, misalnya <i>Junkfood</i> dll.</p>
-<p>Bagi seseorang yang ingin menjalani program diet, menghitung kalori makanan merupakan suatu keharusan. Pasalnya ada makanan yang dikonsumsi dalam porsi besar tidak akan mempengaruhi berat badan, misalnya sayur-sayuran dan buah-buahan. Begitu juga ada makanan yang meskipun dikonsumsi dalam porsi kecil namun dapat mempengaruhi penambahan berat badan, misalnya biskuit, roti cokelat dan kue tart. Dengan demikian menghitung kalori makanan ketika akan melakukan program diet perlu direncanakan matang. Hal ini bertujuan agar program diet sukses dan sesuai dengan hasil yang harapkan</p>
-<p>Beberapa tips kesehatan :</p>
-<ol>
-<li><a href="#">Nutrisi Makanan</a></li>
-<li><a href="#">Olahraga</a></li>
-<li><a href="#">Gaya Hidup</a></li>
-</ol>
-<h3>Makan sehat = Hidup sehat!</h3>
-<p>Gaya hidup sehat dapat dicerminkan dari pola hidup yg sehat seperti dari pola makan dan "apa" yang akan di makan. Maka tida heran jika pada umumnya seorang vegetarian memeliki kebugaran yang lebih.</p>
-<p><a href="#">Hitung Nutrisi Makanan Anda</a></p>
+<div class='clr'></div><div class='g1'>
+				  <div class='g2'>
+					<div class='gadget'>
+					<div id="result2">
+					  <h2>Login Bermasalah !</h2>
+					  </div>
+					  <p><font size='3'> &nbsp; &nbsp; &nbsp; &nbsp; Silahkan Coba Kembali </font></p>
+					  
+					  <div class='clr'></div>
+						
+					</div>
+    </div>
+				</div>
 </div>
 
 <div style="clear: both;">&nbsp;</div>

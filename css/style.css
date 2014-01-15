@@ -3,9 +3,9 @@ body {
 	margin:0;
 	padding:0;
 	width:100%;
-	color:#6d6d6d;
+	color:#000000;
 	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
-	background:#fff;
+	
 }
 html, .main {
 	padding:0;
@@ -437,6 +437,7 @@ a:link{
 	outline:none;
 }
 #result { background-color: #F0FFED; border: 1px solid #215800; padding: 10px; width: 400px; margin-bottom: 20px; }
+#result2 { background-color: #FAC0C0; border: 1px solid #F74646; padding: 10px; width: 400px; margin-bottom: 20px; }
 #warna {
 	font:14px Tahoma, Geneva, sans-serif;
 	color:blue;

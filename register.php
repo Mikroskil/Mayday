@@ -4,15 +4,15 @@
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="default.css" rel="stylesheet" type="text/css" />
-<link type="text/css" href="../css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
-<link href="../css/style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="../css/coin-slider.css" />
-<script type="text/javascript" src="../js/cufon-yui.js"></script>
-<script type="text/javascript" src="../js/cufon-titillium-250.js"></script>
-<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="../js/script.js"></script>
-<script type="text/javascript" src="../js/coin-slider.min.js"></script>
-<script type="text/javascript" src="../js/jquery-ui-1.8.6.custom.min.js"></script>
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-titillium-250.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
 <script type="text/javascript">
 function passwordStrength(password)
 {
@@ -111,7 +111,7 @@ $(document).ready(
 
 <div id="ColFour">
 <h2>Registration Form</h2>
-<div id="loading"><img src="images/loading.gif" alt="loading..." /> <b>Info:</b></div>
+<div id="loading"><b>Info:</b></div>
 <div id="result"></div>
 <form id="form1" method="post" action="script/reg.php">
 					<table width="400" border="0" align="center">
@@ -121,11 +121,11 @@ $(document).ready(
                     <td> : </td>
 					<td><input name="nama" type="text" id="nama" size='24'></td>
 					</tr>
-					<!--<tr>
+					<tr>
 					<td >Tanggal Lahir </td>
                     <td> : </td>
 					<td><input name="tanggal_lahir" id="tanggal_lahir" type="text" size='24'></td>
-					</tr>-->
+					</tr>
 					<tr>
 					<td >Jenis Kelamin </td>
                     <td> : </td>

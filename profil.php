@@ -1,5 +1,6 @@
 <?php
-	session_start();	
+	session_start();
+	
 ?>
 <head>
 <title>Makanan Anda Diet Anda</title>
@@ -21,6 +22,7 @@
 
 <body>
 <div id="header">
+
 </div>
 <div id="menu">
 <?php 
@@ -50,34 +52,36 @@
 </div>
 <div id="content">
 <div id="colOne">
-<h2>Recent Updates</h2>
+
+<?php
+echo"<h2>$_SESSION[Nama]</h2>"
+?>
+<p align="center"><img src="images/nophoto.png" height="200" width="180"></p> 
+<form method="POST"  enctype="multipart/form-data" action="<?php echo $editFormAction; ?>?act=up_foto">
+<div id="upload"  >
+		<p>Silahkan klik &quot;<em><strong>Browse</strong></em>&quot; , pilih foto kemudian klik &quot;<strong><em>Submit</em></strong>&quot;.
+        </p>
+        <p>
+          <input name="imgfile" type="file" id="imgfile" size="35" />
+          </p>
+        <p>
+        <input type="submit" name="Submit" value="Submit" />
+</div>
+
+</form>
+
 <h3>Berat Badan Ideal</h3>
-<p>Nutrisi<a href="#"> More...</a></p>
+<p>Nutrisi<a href="#">  More...</a></p>
 <h3>Nutrisi</h3>
-<p>Nutrisi dan Manfaat Susu Kedelai Bagi Tubuh<a href="#">  More...</a></p>
+<p>Nutrisi dan Manfaat Susu Kedelai Bagi Tubuh<a href="#"> More...</a></p>
 <h3>Diet</h3>
-<p>Plate Model Untuk Membantu Anda menyajikan Makanan Sehat Setiap Hari<a href="#"> More...</a></p>
+<p>Plate Model Untuk Membantu Anda menyajikan Makanan Sehat Setiap Hari<a href="#">  More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
 </div>
 
 <div id="ColFour">
-<h2>Frequently Asked Questions (FAQ)</h2>
-<p><em><strong>Makanan Anda Diet Anda</strong></em>
-</p>
-<p>(Tanya) A :</p>
-<p>(Jawab) B :</p>
 
-<p>(Tanya) A :</p>
-<p>(Jawab) B :</p>
-
-<p>(Tanya) A :</p>
-<p>(Jawab) B :</p>
-
-<p>(Tanya) A :</p>
-<p>(Jawab) B :</p>
-
-<p>(Tanya) A :</p>
-<p>(Jawab) B :</p>
+<h2>Profile</h2>
 
 </div>
 <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->

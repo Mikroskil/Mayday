@@ -37,10 +37,11 @@ img {
 /* Header */
 
 #header {
-	width: 700px;
+	width: 850px;
 	height: 200px;
 	margin: 0 auto;
 	background: url(images/img2.jpg);
+	background-size: 100% auto;
 }
 
 #header * {
@@ -69,10 +70,11 @@ img {
 /* Menu */
 
 #menu {
-	width: 700px;
+	width: 850px;
 	height: 41px;
 	margin: 0 auto;
 	background: #2E2E2E url(images/img3.gif)
+	
 }
 
 #menu ul {
@@ -105,14 +107,15 @@ img {
 /* Content */
 
 #content {
-	width: 700px;
+	width: 850px;
 	margin: 0 auto;
 	background: url(images/img8.png);
+	background-size: 100% auto;
 }
 
 #colOne {
 	float: left;
-	width: 160px;
+	width: 240px;
 	padding: 20px 10px 0 10px;
 }
 
@@ -141,11 +144,12 @@ img {
 /* Footer */
 
 #footer {
-	width: 700px;
+	width: 850px;
 	margin: 0 auto;
 	padding: 10px 0;
 	background: url(images/img6.gif) repeat-x;
 	font-size: smaller;
+	
 }
 
 #footer * {

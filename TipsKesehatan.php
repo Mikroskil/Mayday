@@ -1,9 +1,22 @@
+<?php
+	session_start();	
+?>
+<html>
 <head>
 <title>Makanan Anda Diet Anda</title>
 
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="default.css" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-titillium-250.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
 </head>
 
 
@@ -11,13 +24,30 @@
 <div id="header">
 </div>
 <div id="menu">
-<ul>
-<li class="active"><a href="index.php" accesskey="1" title="">Home</a></li>
-<li><a href="TipsKesehatan.php" accesskey="2" title="">Tips Kesehatan</a></li>
-<li><a href="Nutrisi.php" accesskey="3" title="">Nutrisi Makanan</a></li>
-<li><a href="FAQ.php" accesskey="4" title="">FAQ </a></li>
-<li><a href="register.php" accesskey="5" title="">Register</a></li>
-</ul>
+<?php 
+			  if(empty($_SESSION['user']))
+			  {
+				echo"
+              <ul>
+                <li class='active'><a href='index.php' accesskey='1' title=''>Home</a></li>
+				<li><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a></li>
+				<li><a href='Nutrisi.php' accesskey='3' title=''>Nutrisi Makanan</a></li>
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='register.php' accesskey='5' title=''>Register</a></li>
+              </ul>";
+			  }
+			  else
+			  {
+				echo"
+			  <ul>
+				<li class='active'><a href='index.php' accesskey='1' title=''>Home</a></li>
+				<li><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a></li>
+				<li><a href='Nutrisi.php' accesskey='3' title=''>Nutrisi Makanan</a></li>
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
+				<li><a href='profil.php'>Profil</a></li>          
+              </ul>";	
+			  }
+			  ?>
 </div>
 <div id="content">
 <div id="colOne">
