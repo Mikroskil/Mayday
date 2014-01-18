@@ -86,9 +86,9 @@
 <h2>Profile</h2>
 <?php
 if($_SESSION[Jenis_Kelamin]=='laki-laki'){
-$picture ='images/diet.jpg';
+$picture ='images/male.jpg';
 }else{
-$picture ='images/diet.jpg';
+$picture ='images/female.jpg';
 }
 ?>
 <table width="570" border="0" align="center" cellpadding="0">

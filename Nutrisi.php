@@ -64,12 +64,26 @@
 <div id="ColFour">
 
 <h2>Nutrisi Makanan</h2>
-<p><em><strong>Daftar Makanan beserta kadar gizi yang terkandung : </strong></em>
+<p><em><strong>Daftar Makanan dan jumlah kalori yang terkandung : </strong></em>
 </p>
 <ol>
-<li><a href="#">Makanan A</a></li>
-<li><a href="#">Makanan B</a></li>
-<li><a href="#">Makanan C</a></li>
+<table width="570" border="0" align="center" cellpadding="0">
+<tr>
+<td width="129"><img src="images/bubur.jpg" alt="" height="120" width="150" align="center" ></td>
+<td width="129"><img src="images/buah.jpg" height="120" width="150" align="center" ></td>
+<td width="129"><img src="images/susu.jpg" alt="" height="120" width="150" align="center" ></td>
+</tr>
+<tr>
+<td align="center"><h2>Bubur <br/> 182 kalori</h2>
+<td align="center"><h2>Anggur <br/> 15 Kalori </h2>
+<td align="center"><h2>Susu<br/> 122 Kalori </h2>
+
+</tr>
+ 
+</table>
+<li><a href="#">Makanan Pagi</a></li>
+<li><a href="#">Makanan Siang</a></li>
+<li><a href="#">Makanan Malam</a></li>
 <li><a href="#">Makanan D</a></li>
 <li><a href="#">Makanan E</a></li>
 </ol>
