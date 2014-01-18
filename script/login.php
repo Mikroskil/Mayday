@@ -10,6 +10,10 @@ if(!empty($hasil))
 	session_register("ds_user"); 
 	session_register("password"); 
 	$_SESSION[Nama]=$data[Nama]; 
+	$_SESSION[tanggal]=$data[tanggal];
+	$_SESSION[tanggal_lahir]=$data[tanggal_lahir];
+	$_SESSION[Jenis_Kelamin] = $data[Jenis_Kelamin];
+	$_SESSION[email] = $data[Email];
 	$_SESSION[user]=$data[Username]; 
 	$_SESSION[password]=$data[Password];
 	header('location:../index.php');

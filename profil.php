@@ -1,4 +1,5 @@
 <?php
+	
 	session_start();
 	
 ?>
@@ -17,6 +18,9 @@
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/coin-slider.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
+<script type="text/javascript">
+
+</script>
 </head>
 
 
@@ -53,11 +57,9 @@
 <div id="content">
 <div id="colOne">
 
-<?php
-echo"<h2>$_SESSION[Nama]</h2>"
-?>
-<p align="center"><img src="images/nophoto.png" height="200" width="180"></p> 
-<form method="POST"  enctype="multipart/form-data" action="<?php echo $editFormAction; ?>?act=up_foto">
+<?php echo"<h2>$_SESSION[Nama]</h2>";?>
+
+<!--<form method="POST"  enctype="multipart/form-data" action="prosesupload.php">
 <div id="upload"  >
 		<p>Silahkan klik &quot;<em><strong>Browse</strong></em>&quot; , pilih foto kemudian klik &quot;<strong><em>Submit</em></strong>&quot;.
         </p>
@@ -69,7 +71,7 @@ echo"<h2>$_SESSION[Nama]</h2>"
 </div>
 
 </form>
-
+-->
 <h3>Berat Badan Ideal</h3>
 <p>Nutrisi<a href="#">  More...</a></p>
 <h3>Nutrisi</h3>
@@ -82,7 +84,46 @@ echo"<h2>$_SESSION[Nama]</h2>"
 <div id="ColFour">
 
 <h2>Profile</h2>
+<table width="570" border="0" align="center" cellpadding="0">
+<tr>
+<td height="26" colspan="4">Your Profile Information, <?php echo"<a href='script/logout.php'><font color='#FF0000'> Logout </font></a>"?> </td>
+</tr>
+<tr>
+<td width="129" rowspan="5"><img src="<?php echo $picture ?>" width="129" height="129" alt="no image found"/></td>
+<td width="130" valign="top"><div align="left">Nama Lengkap </div></td><td >:</td>
+<td width="280" valign="top"><?php echo"$_SESSION[Nama]";?></td>
+</tr>
+<tr>
+<td valign="top"><div align="left">Jenis Kelamin </div></td><td>:</td>
+<td valign="top"><?php echo"$_SESSION[Jenis_Kelamin]";?></td>
+</tr>
+<tr>
+<td valign="top"><div align="left">Tanggal Bergabung </div></td><td>:</td>
+<td valign="top"><?php echo"$_SESSION[tanggal]";?></td>
+</tr>
+<tr>
+<td valign="top"><div align="left">Email </div></td><td>:</td>
+<td valign="top"><?php echo"$_SESSION[email]";?></td>
+</tr>
 
+</table>
+<?php
+function timeDiff($firstTime, $lastTime){
+$firstTime = strtotime($firstTime);
+$lastTime = strtotime($lastTime);
+$timeDiff = $lastTime - $firstTime;
+
+return $timeDiff;
+}
+$difference = timeDiff($_SESSION[tanggal], date("Y-m-d H:i:s"));
+$years = abs(floor($difference / 31536000));
+$days = abs(floor(($difference - ($years*31536000))/86400));
+$hours = abs(floor(($difference - ($years*31536000) - ($days*86400))/3600));
+$min = abs(floor(($difference - ($years*31536000) - ($days*86400) - ($hours * 3600))/60));
+#floor($difference / 60);
+
+echo"<h2>Selamat Anda telah mengikuti program diet sehat selama : ". $years . " Tahun, ". $days . " Hari, ". $hours . " Jam, " . $min . " Menit.</h2>";
+?>
 </div>
 <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
 <div style="clear: both;">&nbsp;</div>
