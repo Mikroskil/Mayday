@@ -13,6 +13,8 @@ if(!empty($hasil))
 	$_SESSION[tanggal]=$data[tanggal];
 	$_SESSION[tanggal_lahir]=$data[tanggal_lahir];
 	$_SESSION[Jenis_Kelamin] = $data[Jenis_Kelamin];
+	$_SESSION[Tinggi_Badan] = $data[Tinggi_Badan];
+	$_SESSION[Berat_Badan] = $data[Berat_Badan];
 	$_SESSION[email] = $data[Email];
 	$_SESSION[user]=$data[Username]; 
 	$_SESSION[password]=$data[Password];

@@ -126,6 +126,14 @@ $(document).ready(
                     <td> : </td>
 					<td><input name="tanggal_lahir" id="tanggal_lahir" type="text" size='24'></td>
 					</tr>
+					<td>Tinggi Badan </td>
+                    <td> : </td>
+					<td><input name="tinggi" type="text" size='3'> Cm</td>
+					</tr>
+					<td>Berat Badan </td>
+                    <td> : </td>
+					<td><input name="berat" type="text" size='3'> Kg</td>
+					</tr>
 					<tr>
 					<td >Jenis Kelamin </td>
                     <td> : </td>

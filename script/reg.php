@@ -3,6 +3,8 @@ include "config.php";
 
 $nama = filter_var($_POST['nama'], FILTER_SANITIZE_STRING);
 $tanggal_lahir = $_POST['tanggal_lahir'];
+$tinggi = $_POST[tinggi];
+$berat = $_POST[berat];
 $Gender = $_POST['Jenis_Kelamin'];
 $username = filter_var($_POST['username'], FILTER_SANITIZE_STRING);
 $password = filter_var($_POST['password'], FILTER_SANITIZE_STRING);
@@ -49,8 +51,8 @@ if (isset($error)) {
 	echo '<b>Berhasil mendaftar. Selamat bergabung di Program diet Sehat.<br>
 	Berikut ini data anda:</b><br />';
 	echo $data;
-	$query = mysql_query("INSERT INTO user (Nama, Tanggal_Lahir, Jenis_Kelamin, Username, Password,Confirm_Pass,Email,tanggal)
-	values ('$nama','$tanggal_lahir','$Gender','$username','$password','$c_password','$Email' ,CURDATE())",$connection)or die(mysql_error());
+	$query = mysql_query("INSERT INTO user (Nama, Tanggal_Lahir,Tinggi_Badan,Berat_Badan, Jenis_Kelamin, Username, Password,Confirm_Pass,Email,tanggal)
+	values ('$nama','$tanggal_lahir','$tinggi','$berat','$Gender','$username','$password','$c_password','$Email' ,NOW())",$connection)or die(mysql_error());
 }
 
 ?>

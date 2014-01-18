@@ -467,3 +467,11 @@ padding:4px;
 background:url(../images/edit_icon.gif) right no-repeat orange;
 cursor:pointer;
 }
+
+#div {
+display: none;
+}
+ 
+#div:hover {
+display: inline;
+}
