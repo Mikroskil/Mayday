@@ -32,26 +32,25 @@
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
 
 		<div class="container">
-			<div class="c_slider"></div>
-			<div class="slider">
+		<div class="slider">
 				<figure>
-					<img src="img/dummy-640x310-1.jpg" alt="" width="815" height="200" />
-					<figcaption>The mirror of soul</figcaption>
+					<img src="img/1.jpg" alt="" width="815" height="200" />
+					<figcaption><strong>Makanan Anda Diet Anda</strong></figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-2.jpg" alt="" width="815" height="200" />
-					<figcaption>Let's cross that bridge when we come to it</figcaption>
+					<img src="img/2.jpg" alt="" width="815" height="200" />
+					<figcaption><strong>Elizabeth Gilbert <em>“I am a better person when I have less on my plate.”</em></strong></figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-3.jpg" alt="" width="815" height="200" />
-					<figcaption>Sushi<em>(do)</em> time</figcaption>
+					<img src="img/3.jpg" alt="" width="815" height="200" />
+					<figcaption><strong>Peace Pilgrim <em>"I don't eat junk foods and I don't think junk thoughts."</em></strong></figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-4.jpg" alt="" width="815" height="200" />
-					<figcaption>Waking Life</figcaption>
+					<img src="img/4.jpg" alt="" width="815" height="200" />
+					<figcaption><strong>Jack LaLanne <em>"The only way you get that fat off is to eat less and exercise more."</em></strong></figcaption>
 				</figure>
 			</div>
-		</div>
+
 
 		<span id="timeline"></span>
 
@@ -67,8 +66,9 @@
                 <li ><a href='index.php' accesskey='1' title=''>Home</a></li>
 				<li class='active'><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
-						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
+						<li  class='active'><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li><a href='Olahraga.php'>Olahraga</a></li>
+						<li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -83,8 +83,9 @@
 				<li ><a href='index.php' accesskey='1' title=''>Home</a></li>
 				<li class='active'><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
-						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
+						<li  class='active'><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li><a href='Olahraga.php'>Olahraga</a></li>
+					<li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -119,8 +120,21 @@
 <p><strong>Bisakah Protein Hewani Diganti Protein Nabati?</strong></p>
 <p>Selain itu, ada banyak manfaat menjadi vegetarian. Selain manfaat kesehatan tubuh, menjadi vegetarian juga akan membuat Anda awet muda. Penyakit-penyakit berbahaya seperti stroke atau kolesterol tinggi juga akan menjauh dari Anda. Meskipun dengan menjadi vegetarian Anda tidak mengkonsumsi daging dan segala hal yang berhubungan dengan daging, Anda tak perlu takut karena Anda masih bisa mengkonsumsi protein nabati dalam makanan-makanan dari tanaman dengan kandungan protein nabati.</p>
 </div>
+
+<!-- FACEBOOK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=450322228361749";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-comments" data-href="http://localhost/kesehatan" data-numposts="5" data-colorscheme="light"></div>
+<!-- END FACEBOOK -->
+
 </div>
- <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
+
 <div style="clear: both;">&nbsp;</div>
 </div>
 <div id="footer"> <p align="center"> @copyright 2013 MAYDAY Team </p>

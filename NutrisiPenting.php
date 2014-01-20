@@ -32,26 +32,24 @@
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
 
 		<div class="container">
-			<div class="c_slider"></div>
 			<div class="slider">
 				<figure>
-					<img src="img/dummy-640x310-1.jpg" alt="" width="815" height="200" />
-					<figcaption>The mirror of soul</figcaption>
+					<img src="img/1.jpg" alt="" width="815" height="200" />
+					<figcaption><strong>Makanan Anda Diet Anda</strong></figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-2.jpg" alt="" width="815" height="200" />
-					<figcaption>Let's cross that bridge when we come to it</figcaption>
+					<img src="img/2.jpg" alt="" width="815" height="200" />
+					<figcaption><strong>Elizabeth Gilbert <em>“I am a better person when I have less on my plate.”</em></strong></figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-3.jpg" alt="" width="815" height="200" />
-					<figcaption>Sushi<em>(do)</em> time</figcaption>
+					<img src="img/3.jpg" alt="" width="815" height="200" />
+					<figcaption><strong>Peace Pilgrim <em>"I don't eat junk foods and I don't think junk thoughts."</em></strong></figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-4.jpg" alt="" width="815" height="200" />
-					<figcaption>Waking Life</figcaption>
+					<img src="img/4.jpg" alt="" width="815" height="200" />
+					<figcaption><strong>Jack LaLanne <em>"The only way you get that fat off is to eat less and exercise more."</em></strong></figcaption>
 				</figure>
 			</div>
-		</div>
 
 		<span id="timeline"></span>
 
@@ -69,6 +67,7 @@
 					<ul>
 						<li class='active'><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li><a href='Olahraga.php'>Olahraga</a></li>
+						<li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -85,6 +84,7 @@
 					<ul>
 						<li class='active'><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li><a href='Olahraga.php'>Olahraga</a></li>
+						<li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -114,7 +114,21 @@
 	<p>Ketika seseorang tidak bisa memenuhi kebutuhan nutrisi untuk tubuhnya sendiri, dia akan beresiko terkena malnutrisi. Keadaan tersebut akan dialami dalam bentuk penurunan berat badan karena tidak ada asupan nutrisi yang cukup dan seimbang. Tanda-tandanya adalah berat badan 10-20% di bawah normal, ada rasa nyeri pada otot, dan penurunan albumin serum. Efeknya nanti adalah fungsi organ tubuh akan terganggu dan tidak bekerja dengan baik. Jaringan tubuh pun sulit dibentuk. Selain malnutrisi, ada juga kelebihan nutrisi. Seperti yang sudah disebutkan bahwa kebutuhan nutrisi harus diberikan secara cukup dan seimbang. Kelebihan nutrisi juga bisa menyebabkan obesitas yang akan memicu timbulnya beragam penyakit. Penuhi kebutuhan nutrisi anda secara bijak, cukup, dan seimbang demi kesehatan.</p>
 
 	</div>
+
+
+<!-- FACEBOOK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=450322228361749";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-comments" data-href="http://localhost/kesehatan" data-numposts="5" data-colorscheme="light"></div>
+<!-- END FACEBOOK -->
 </div>
+
 <div style="clear: both;">&nbsp;</div>
 </div>
 <div id="footer"> <p align="center"> @copyright 2013 MAYDAY Team </p>
