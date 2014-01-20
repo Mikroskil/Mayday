@@ -58,7 +58,7 @@
 		
 	</section>
 
-<div id="menu">
+	<div id="menu">
 <?php 
 			  if(empty($_SESSION['user']))
 			  {
@@ -68,7 +68,8 @@
 				<li class='active'><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
-						<li><a href='Olahraga.php'>Olahraga</a></li>
+						<li class='active'><a href='Olahraga.php'>Olahraga</a></li>
+						<li class='active'><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -84,7 +85,8 @@
 				<li class='active'><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
-						<li><a href='Olahraga.php'>Olahraga</a></li>
+						<li ><a href='Olahraga.php'>Olahraga</a></li>
+						<li class='active'><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -97,26 +99,110 @@
 <div id="content">
 <div id="colOne">
 <h2>Recent Updates</h2>
-<h3>Manfaat Jogging Bagi Tubuh</h3>
-<p>Sebagai upaya menjaga kesehatan, olahraga merupakan suatu keharusan. Tidak perlu pergi ke gym melakukan serangkaian olah raga berat dengan alat-alat gym.<a href="Olahraga.php">  More...</a></p>
 <h3>Cara Mengecilkan Perut dengan Mudah</h3>
 <p>Salah satu kesalahan utama untuk mengecilkan perut adalah pandangan umum bahwa untuk mendapatkan perut rata, maka latihan harus difokuskan pada satu bagian tubuh, yaitu perut.<a href="OlahragaPerut.php">  More...</a></p>
+<h3>Menurunkan Berat Badan Lewat Olahraga dan Pengaturan Pola Makan</h3>
+<p>Menurunkan berat badan dijalani secara berkala dengan dua cara utama yang berkesinambungan yaitu pengaturan pola makan dan olahraga teratur.<a href="OlahragaPolaMakan.php">  More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
 </div>
 
 <div id="ColFour">
 <div style="text-align:justify;">
-<h2>Menurunkan Berat Badan Lewat Olahraga dan Pengaturan Pola Makan</h2>
-<p>Menurunkan berat badan dijalani secara berkala dengan dua cara utama yang berkesinambungan yaitu pengaturan pola makan dan olahraga teratur. Kedua cara ini sebaiknya dilakukan secara bersamaan untuk menjaga bentuk tubuh, kebugaran, dan elastisitas kulit ketika berat badan menyusut. Pengaturan pola makan tidak berarti Anda harus mengurangi secara drastis porsi makan harian. Sebaliknya, hal ini justru memicu kenaikan berat badan, sebab pengurangan porsi makanan secara drastis akan menstimulasi otak untuk mengirim sinyal rasa lapar dan menyebabkan Anda ingin makan lebih banyak dari sebelumnya.</p>
+<p>Sebelum memutuskan untuk melakukan diet ada baiknya Anda menghitung dahulu apakah berat badan Anda termasuk kategori obesitas atau gemuk sehingga Anda memang perlu melakukan diet.</p>
+<p>&nbsp;</p>
+<p style="text-align: left;"><strong>Menghitung Indeks Massa Tubuh (IMT) / Body Mass Index</strong></p>
+<p style="text-align: left;">menggunakan rumus:</p>
+<p>IMT = Berat Badan (kg)/(Tinggi Badan (cm)/100)2</p>
+<p>Contoh :</p>
+<p>BB = 50 kg, TB = 160 cm<br />
+IMT = 50/(160/100)2 = 50/2,56 = 19,53</p>
+<p style="text-align: left;"><strong>Tabel Indeks Massa Tubuh</strong></p>
+<table width="272" border="1">
+<tbody>
+<tr>
+<td style="text-align: center;" align="center"><strong>Indeks Massa Tubuh</strong></td>
+<td align="center"><strong>Kategori</strong></td>
+</tr>
+<tr>
+<td align="center">&lt;18</td>
+<td align="center">Kurus</td>
+</tr>
+<tr>
+<td align="center">18,5 s.d 24,9</td>
+<td align="center">Normal</td>
+</tr>
+<tr>
+<td align="center">25 s.d 29,9</td>
+<td align="center">Gemuk</td>
+</tr>
+<tr>
+<td align="center">&gt;30</td>
+<td align="center">Obesitas</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p style="text-align: left;">Lebih mudahnya gunakan kalkulator IMT berikut ini: </p>
 
-<p><strong>Menurunkan Berat Badan lewat Pola Makan</strong></p>
-<p>Pengaturan pola makan mencakup jenis, jumlah, dan jam makan yang disesuaikan dengan aktivitas harian. Untuk menurunkan bobot tubuh, asupan kalori menjadi salah satu aspek penting. Tubuh perlu asupan kalori sebagai sumber energi dalam beraktivitas. Untuk itu, pilihlah sumber kalori yang berasal dari karbohidrat kompleks dan berserat. Sebab, nutrisi ini diserap secara berkala oleh tubuh sehingga pemanfaatan kalori sebagai sumber energi berlangsung lebih efektif. Serat yang terkandung di dalamnya membantu kita merasa kenyang walaupun makan dalam porsi kecil.</p>
-<p>Sayuran dan buah menjadi aspek penting lainnya dalam proses penurunan berat badan. Sayuran menempati porsi terbanyak dalam piring makan Anda di setiap waktu makan. Vitamin dan mineral yang terkandung di dalam sayur-sayuran membantu menjaga kesehatan dan proses metabolisme serta menurunkan berat badan sebab lebih banyak porsi sayuran berarti mengurangi asupan lemak dalam tubuh.</p>
-<p>Sumber protein nabati menjadi kombinasi gizi seimbang selanjutnya. Nutrisi ini dapat diperoleh dari kacang-kacangan seperti kedelai. Asupan protein nabati dan lemak tak jenuh membantu melancarkan proses metabolisme dan regenerasi sel, serta mengurangi asupan lemak jenuh yang banyak terdapat pada daging.</p>
+<div class="set-box set-block widget wet_bmicalc" id="wet_bmicalc">
+    <div class="set-box-body set-block-body"><div class="set-bar set-blockheader">
+    <div class="t"><b>Kalkulator IMT (Indeks Massa Tubuh)</b></div>
+</div><div class="set-box set-blockcontent">
+    <div class="set-box-body set-blockcontent-body"><script type="text/javascript">
+function wet_bmicalc()
+{
+	var theform = document.getElementById('wet_bmicalc_form');
+	var bmi = document.getElementById('wet_bmicalc_bmi');
+	var pane = document.getElementById('wet_bmicalc_pane');
+	var h = theform.wet_bmicalc_height.value;
+	h = h.replace(/\./, ".");
+	if ( h > 100 ) h = h / 100;
 
-<p><strong>Olahraga untuk menurunkan Berat Badan</strong></p>
-<p>Pengaturan pola makan ini sebaiknya diimbangi dengan olahraga rutin setiap hari seperti peregangan atau jogging. Bagi mereka yang berupaya menurunkan berat badan disarankan untuk membuat jurnal pola makan untuk mengevaluasi asupan gizi yang dikonsumsi selama proses penurunan berat badan. Penurunan berat badan ideal adalah 1,5 kg per minggu. Pengecekan berat badan secara berkala minimal seminggu sekali membantu proses menurunkan berat badan.</p>
+	var w = theform.wet_bmicalc_weight.value;
+	w = w.replace(/\./, ".");
+	if ( w * h > 0 ) {
+		bmi.innerHTML = (w / (h * h)).toFixed(1).replace(/\./, ".");
+		pane.style.display = "block";
+	} else {
+		pane.style.display = "none";
+	}
+}
+</script>
+<div style="margin-top:5px;"><noscript><p>This Widget requires Javascript</p></noscript><form id="wet_bmicalc_form" method="post">
+	<p>
+	<label for="wet_bmicalc_height">Tinggi dalam cm:</label><br>
+	<input id="wet_bmicalc_height" name="wet_bmicalc_height" size="6" type="text">
+	</p>
+	<p>
+	<label for="wet_bmicalc_weight">Berat dalam kg:</label><br>
+	<input id="wet_bmicalc_weight" name="wet_bmicalc_weight" size="6" type="text">
+	</p>
+	<div id="wet_bmicalc_pane" style="display:none">
+	<p><acronym title="Indeks Massa Tubuh">IMT</acronym> Anda adalah <strong id="wet_bmicalc_bmi"></strong>.</p>
+	
+	<p style="text-align: left;"><strong>Tabel Indeks Massa Tubuh</strong></p>
 
+<p>&nbsp;</p>
+	</div>
+	<table>
+	<tr> <td><p><input value="Hitung" onclick="wet_bmicalc(); return false;" type="submit"></p></td>
+	<td><p><input value="Reset" type="reset"></p></td>
+	</tr>
+	</table>
+</form></div>		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div>
+
+</div>
+
+
+<p>&nbsp;</p>
+<p>Semoga bermanfaat</p>
+<p>&nbsp;</p>
+
+</div>
 </div>
  <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
 <div style="clear: both;">&nbsp;</div>

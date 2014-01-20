@@ -6,9 +6,9 @@
 
 
 <link href="slide.css" rel="stylesheet" type="text/css" />
-<link href="default.css" rel="stylesheet" type="text/css" />
-<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>

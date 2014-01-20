@@ -9,9 +9,9 @@
 
 
 <link href="slide.css" rel="stylesheet" type="text/css" />
-<link href="default.css" rel="stylesheet" type="text/css" />
-<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
@@ -19,6 +19,7 @@
 
 
 <body>
+
 <span id="sl_play" class="sl_command">&nbsp;</span>
 	<span id="sl_pause" class="sl_command">&nbsp;</span>
 	<span id="sl_i1" class="sl_command sl_i">&nbsp;</span>
@@ -68,6 +69,7 @@
 					<ul>
 						<li ><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li ><a href='Olahraga.php'>Olahraga</a></li>
+					 <li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -84,6 +86,7 @@
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li><a href='Olahraga.php'>Olahraga</a></li>
+						<li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -114,8 +117,20 @@
 <p>Untuk kecantikan yang menjadi tip para selebriti, manfaat air putih ternyata bisa digunakan sebagai diet menu diet yang paling baik dibanding jenis minuman lain. Seringkali seseorang tidak bisa membedakan mana rasa haus dan rasa lapar. Lalu, mereka akan makan makanan apapun padahal yang tubuh mereka butuhkan hanyalah asupan air minum.</p>
 <p>Karena itu, ketika merasakan kekosongan perut, jangan langsung mengkonsumsi makanan berat, minum air putih terlebih dulu lebih baik. Dengan begitu, air putih membantu menurunkan nafsu makan sehingga bisa membuat berat badan stabil. Selain itu, manfaat air putih juga bisa menghilangkan kotoran dalam tubuh secara lebih cepat melalui urin. Disarankan minum air putih hangat sebelum makan. Manfaat air putih yang lain untuk kecantikan adalah membuat tubuh lebih bugar, kulit lebih lembab, dan segar.</p>
 </div>
+
+<!-- FACEBOOK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=450322228361749";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-comments" data-href="http://localhost/kesehatan" data-numposts="5" data-colorscheme="light"></div>
+<!-- END FACEBOOK -->
 </div>
- <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
+
 <div style="clear: both;">&nbsp;</div>
 </div>
 <div id="footer"> <p align="center"> @copyright 2013 MAYDAY Team </p>

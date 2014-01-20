@@ -9,9 +9,9 @@
 
 
 <link href="slide.css" rel="stylesheet" type="text/css" />
-<link href="default.css" rel="stylesheet" type="text/css" />
-<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
@@ -124,6 +124,7 @@
 <p><strong>Efek Samping Susu Kedelai</strong></p>
 <p>Namun demikian, sari kedelai ini juga memiliki kekurangan. Sari kedelai memiliki kadar kalsium rendah, bahkan lebih rendah daripada susu sapi. Untuk itu, diperlukan sumber makanan atau minuman lain yang kaya kalsium seperti susu skim rendah lemak untuk membantu mencukupi kebutuhan kalsium harian. Batasi konsumsi sari kedelai jika Anda memiliki kadar asam urat tinggi sebab sari kedelai berpotensi meningkatkan kadar asam urat dalam tubuh dan juga berpengaruh dalam pembentukan batu ginjal.</p>
 
+</div>
 </div>
  <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
 <div style="clear: both;">&nbsp;</div>

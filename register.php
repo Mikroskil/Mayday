@@ -1,12 +1,17 @@
+<?php
+	session_start();
+?>
+<!DOCTYPE HTML>
+<html>
 <head>
+<meta charset="UTF-8">
 <title>Makanan Anda Diet Anda</title>
 
 
 <link href="slide.css" rel="stylesheet" type="text/css" />
-<link href="default.css" rel="stylesheet" type="text/css" />
-<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />
 <script type="text/javascript" src="js/cufon-yui.js"></script>
 <script type="text/javascript" src="js/cufon-titillium-250.js"></script>
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>

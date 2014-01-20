@@ -10,15 +10,32 @@
 <title>Makanan Anda Diet Anda</title>
 
 
+
 <link href="slide.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="default.css" rel="stylesheet" type="text/css" />
 <link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
-<link href="css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
-<script type="text/javascript">
-
+<script>
+jQuery(document).ready(function($) {
+  $('.popup').click(function(event) {
+    var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = this.href,
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+    
+    window.open(url, 'twitter', opts);
+ 
+    return false;
+  });
+   });
 </script>
 </head>
 
@@ -102,21 +119,40 @@
 <div id="content">
 <div id="colOne">
 
-<?php echo" <h2> Hai, $_SESSION[Nama]</h2>";?>
+<?php echo" <h2> Hai, $_SESSION[Nama]</h2>";
+$usernama = $_SESSION['user']; 
+//data yang lama
+$host = "localhost";
+$username = "root";
+$password = "";
+$databasename = "dbsehat";
+$connection = mysql_connect($host, $username, $password) or die("Kesalahan Koneksi ... !!");
+mysql_select_db($databasename, $connection) or die("Databasenya Error");
 
-<!--<form method="POST"  enctype="multipart/form-data" action="prosesupload.php">
+$sql = mysql_query("SELECT * FROM user WHERE Username = '$usernama'");
+$data = mysql_fetch_array($sql);
+$hasil = mysql_num_rows($sql);
+
+if($hasil>0)
+	$picprofil = $data['nama_image'];
+else
+	$picprofil = "";
+?>
+
+<form method="POST"  enctype="multipart/form-data" action="prosesupload.php">
 <div id="upload"  >
 		<p>Silahkan klik &quot;<em><strong>Browse</strong></em>&quot; , pilih foto kemudian klik &quot;<strong><em>Submit</em></strong>&quot;.
         </p>
         <p>
-          <input name="imgfile" type="file" id="imgfile" size="35" />
+          <input type="hidden" name="user" value="<?php echo $usernama; ?>">
+          <input name="Filegambar" type="file" id="imgfile" size="35" />
           </p>
         <p>
         <input type="submit" name="Submit" value="Submit" />
 </div>
 
 </form>
--->
+
 <h2>Recent Updates</h2>
 <h3>Nutrisi dan Manfaat Susu Kedelai Bagi Tubuh</h3>
 <p>Susu kedelai merupakan sumber protein nabati yang efektif untuk menjaga kesehatan dan menurunkan kolesterol.<a href="NutrisiSusu.php">  More...</a></p>
@@ -131,10 +167,13 @@
 
 <!-- <h2>Profile</h2> -->
 <?php
-if($_SESSION['Jenis_Kelamin']=='laki-laki'){
-$picture ='images/male.jpg';
+if($picprofil!=""){
+	$picture = $picprofil;
+}
+else if($_SESSION['Jenis_Kelamin']=='laki-laki'){
+	$picture ='images/male.jpg';
 }else{
-$picture ='images/female.jpg';
+	$picture ='images/female.jpg';
 }
 ?>
 <table width="570" border="0" align="center" cellpadding="0">
@@ -251,18 +290,6 @@ echo"<h2>Selamat Anda telah mengikuti program diet sehat selama : <b>". $days . 
 </form>
 
 <?php 
-//data yang lama
-$host = "localhost";
-$username = "root";
-$password = "";
-$databasename = "dbsehat";
-$connection = mysql_connect($host, $username, $password) or die("Kesalahan Koneksi ... !!");
-mysql_select_db($databasename, $connection) or die("Databasenya Error");
-
-$usernama = $_SESSION['user'];
-$sql = mysql_query("SELECT * FROM user WHERE Username = '$usernama'");
-$data = mysql_fetch_array($sql);
-$hasil = mysql_num_rows($sql);
 
 if($hasil>0) {
 	$pagi=$data['Pagi'];
@@ -347,6 +374,7 @@ if(isset($_POST['makananPagi']) && isset($_POST['makananSiang']) && isset($_POST
 
 <div id="result">
 <?php
+	$summary = '';
 	if(isset($_POST['button'])){
 		echo "
 		<p> $pagi = $kaloriPagi Kal</p>
@@ -354,6 +382,8 @@ if(isset($_POST['makananPagi']) && isset($_POST['makananSiang']) && isset($_POST
 		<p> $Malam = $kaloriMalam Kal</p>";
 		$total = $kaloriPagi + $kaloriSiang + $kaloriMalam;
 		echo "<h2> Total Kalori = $total Kal</h2>";
+		$summary.= $pagi." = ".$kaloriPagi." Kal, ".$Siang." = ".$kaloriSiang." Kal, ".$Malam." = ".$kaloriMalam." Kal, Total Kalori = ".$total." Kal";
+
 	}
 	else{
 		if($kaloriPagi!=""){
@@ -363,13 +393,24 @@ if(isset($_POST['makananPagi']) && isset($_POST['makananSiang']) && isset($_POST
 			<p> $Malam = $kaloriMalam Kal</p>";
 			$total = $kaloriPagi + $kaloriSiang + $kaloriMalam;
 			echo "<h2> Total Kalori = $total Kal</h2>";
+			$summary.= $pagi." = ".$kaloriPagi." Kal, ".$Siang." = ".$kaloriSiang." Kal, ".$Malam." = ".$kaloriMalam." Kal, Total Kalori = ".$total." Kal";
 		}
 	}
-	
-	
-	
+	$title = 'Makanan Anda Diet Anda';
+	$url = 'http://localhost/kesehatan/profil.php';
+	$image = 'https://cdn1.iconfinder.com/data/icons/bloggers-1-to-7-vol-PNG/512/share_this_icon.png';
 ?>
 </div>
+<div style="display:inline">
+    <a id="button" onClick="window.open('http://www.facebook.com/sharer/sharer.php?s=100&amp;p[title]=<?php echo $title; ?>&amp;p[summary]=<?php echo $summary;?>&amp;p[url]=<?php echo $url; ?>&amp;&p[images][0]=<?php echo $image;?>', 'sharer', 'toolbar=0,status=0,width=550,height=400');" target="_parent" href="javascript: void(0)">
+    <img src="images/f.jpg" /></a>  
+    <a class="twitter popup" href="http://twitter.com/share?source=sharethiscom&text=<?php echo $summary;?>&url=<?php echo $url; ?>&via=makananandadietanda"><img src="images/tw.jpg"/></a>
+    <a href="javascript:void(0);" onclick="popUp=window.open('https://plus.google.com/share?url=<?php echo $url; ?> ','popupwindow','scrollbars=yes,width=800,height=400');popUp.focus();return false"><img src="images/g.jpg" /></a>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $url; ?> &title=<?php echo $title;?>&summary=<?php echo $summary;?>&source=BerbagiYuks.con" class="popup"rel="nofollow"><img src="images/in.jpg" /></a>
+    <a href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><img src="images/pin.jpg" /></a>
+    
+</div>
+
 </div>
 
 <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->

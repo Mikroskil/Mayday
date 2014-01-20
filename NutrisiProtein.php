@@ -9,9 +9,9 @@
 
 
 <link href="slide.css" rel="stylesheet" type="text/css" />
-<link href="default.css" rel="stylesheet" type="text/css" />
-<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
@@ -118,6 +118,7 @@
 
 <p><strong>Bisakah Protein Hewani Diganti Protein Nabati?</strong></p>
 <p>Selain itu, ada banyak manfaat menjadi vegetarian. Selain manfaat kesehatan tubuh, menjadi vegetarian juga akan membuat Anda awet muda. Penyakit-penyakit berbahaya seperti stroke atau kolesterol tinggi juga akan menjauh dari Anda. Meskipun dengan menjadi vegetarian Anda tidak mengkonsumsi daging dan segala hal yang berhubungan dengan daging, Anda tak perlu takut karena Anda masih bisa mengkonsumsi protein nabati dalam makanan-makanan dari tanaman dengan kandungan protein nabati.</p>
+</div>
 </div>
  <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
 <div style="clear: both;">&nbsp;</div>

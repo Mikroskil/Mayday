@@ -9,9 +9,9 @@
 
 
 <link href="slide.css" rel="stylesheet" type="text/css" />
-<link href="default.css" rel="stylesheet" type="text/css" />
-<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
@@ -68,7 +68,7 @@
 				<li class='active'><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
-						<li><a href='Olahraga.php'>Olahraga</a></li>
+						<li class='active'><a href='Olahraga.php'>Olahraga</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -84,7 +84,7 @@
 				<li class='active'><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
-						<li><a href='Olahraga.php'>Olahraga</a></li>
+						<li class='active'><a href='Olahraga.php'>Olahraga</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -118,7 +118,7 @@
 <p>3. Mencegah datangnya penyakit</p>
 <p>Karena keefektifannya dalam membakar lemak, jogging juga sangat bermanfaat dalam aksi pencegahan datangnya berbagai macam penyakit. Jika jogging secara teratur dilakukan dan lemak didalam tubuh berkurang, aliran darah pun akan semakin lancar. Dengan lancarnya aliran peredaran darah, berbagai macam penyakit seperti kolesterol, stroke, jantung koroner, hipertensi akan jauh dari kehidupan anda.</p>
 
-
+</div>
 </div>
  <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
 <div style="clear: both;">&nbsp;</div>
