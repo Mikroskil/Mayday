@@ -2,10 +2,10 @@
 include "config.php";
 
 $nama = filter_var($_POST['nama'], FILTER_SANITIZE_STRING);
-$tanggal_lahir = $_POST['tanggal_lahir'];
-$tinggi = $_POST[tinggi];
-$berat = $_POST[berat];
-$Gender = $_POST['Jenis_Kelamin'];
+$tanggal_lahir = filter_var($_POST['tanggal_lahir'], FILTER_SANITIZE_STRING);
+$tinggi = filter_var($_POST['tinggi'], FILTER_SANITIZE_STRING);
+$berat = filter_var($_POST['berat'], FILTER_SANITIZE_STRING);
+$Gender = filter_var($_POST['Jenis_Kelamin'], FILTER_SANITIZE_STRING);
 $username = filter_var($_POST['username'], FILTER_SANITIZE_STRING);
 $password = filter_var($_POST['password'], FILTER_SANITIZE_STRING);
 $c_password = filter_var($_POST['c_password'], FILTER_SANITIZE_STRING);

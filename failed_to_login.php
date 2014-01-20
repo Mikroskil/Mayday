@@ -1,5 +1,7 @@
+<!DOCTYPE HTML>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>Makanan Anda Diet Anda</title>
 
 <meta name="keywords" content="" />
@@ -105,20 +107,12 @@
 <p>Plate Model Untuk Membantu Anda menyajikan Makanan Sehat Setiap Hari<a href="#"> More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
 </div>
-<div id="colFour">
-<div class='clr'></div><div class='g1'>
-				  <div class='g2'>
-					<div class='gadget'>
-					<div id="result2">
-					  <h2>Login Bermasalah !</h2>
-					  </div>
-					  <p><font size='3'> &nbsp; &nbsp; &nbsp; &nbsp; Silahkan Coba Kembali </font></p>
-					  
-					  <div class='clr'></div>
-						
-					</div>
-    </div>
-				</div>
+<div id="ColFour">
+			<div id="result2">
+			  <h2>Login Bermasalah !</h2>
+			</div>
+		  	<p><font size='3'> &nbsp; &nbsp; &nbsp; &nbsp; Silahkan Coba Kembali </font></p>
+		  	
 </div>
 
 <div style="clear: both;">&nbsp;</div>

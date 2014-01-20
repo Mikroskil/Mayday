@@ -33,10 +33,6 @@ h2 {
 	font-weight:normal;
 	color:#212121;
 }
-p {
-	margin:8px 0;
-	padding:0 0 8px 0;
-}
 a {
 	color:#65c8fd;
 	text-decoration:underline;
@@ -83,11 +79,6 @@ h1 small {
 	letter-spacing:normal;
 	text-transform:none;
 	color:#fff;
-}
-.slider {
-	margin:0 0 20px;
-	padding:13px 12px 30px 13px;
-	background:url(../images/slider_bg.jpg) no-repeat center top;
 }
 
 .menu_nav {

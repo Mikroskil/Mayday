@@ -3,20 +3,19 @@
 	session_start();
 	
 ?>
+<!DOCTYPE HTML>
+<html>
 <head>
+<meta charset="UTF-8">
 <title>Makanan Anda Diet Anda</title>
 
-<meta name="keywords" content="" />
-<meta name="description" content="" />
+
+<link href="slide.css" rel="stylesheet" type="text/css" />
 <link href="default.css" rel="stylesheet" type="text/css" />
 <link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/cufon-titillium-250.js"></script>
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/coin-slider.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
 <script type="text/javascript">
 
@@ -25,9 +24,58 @@
 
 
 <body>
-<div id="header">
-
-</div>
+<span id="sl_play" class="sl_command">&nbsp;</span>
+	<span id="sl_pause" class="sl_command">&nbsp;</span>
+	<span id="sl_i1" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
+	<section id="slideshow">
+	
+		<a class="commands prev commands1" href="#sl_i4" title="Go to last slide">&lt;</a>
+		<a class="commands next commands1" href="#sl_i2" title="Go to 2nd slide">&gt;</a>
+		<a class="commands prev commands2" href="#sl_i1" title="Go to 1rst slide">&lt;</a>
+		<a class="commands next commands2" href="#sl_i3" title="Go to 3rd slide">&gt;</a>
+		<a class="commands prev commands3" href="#sl_i2" title="Go to 2nd slide">&lt;</a>
+		<a class="commands next commands3" href="#sl_i4" title="Go to 4th slide">&gt;</a>
+		<a class="commands prev commands4" href="#sl_i3" title="Go to 3rd slide">&lt;</a>
+		<a class="commands next commands4" href="#sl_i1" title="Go to first slide">&gt;</a>
+		
+		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
+		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
+		
+		<div class="container">
+			<div class="c_slider"></div>
+			<div class="slider">
+				<figure>
+					<img src="img/dummy-640x310-1.jpg" alt="" width="640" height="310" />
+					<figcaption>The mirror of soul</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="img/dummy-640x310-2.jpg" alt="" width="640" height="310" />
+					<figcaption>Let's cross that bridge when we come to it</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="img/dummy-640x310-3.jpg" alt="" width="640" height="310" />
+					<figcaption>Sushi<em>(do)</em> time</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="img/dummy-640x310-4.jpg" alt="" width="640" height="310" />
+					<figcaption>Waking Life</figcaption>
+				</figure>
+			</div>
+		</div>
+		
+		<span id="timeline"></span>
+		
+		<ul class="dots_commands"><!--
+			--><li><a title="Show slide 1" href="#sl_i1">Slide 1</a></li><!--
+			--><li><a title="Show slide 2" href="#sl_i2">Slide 2</a></li><!--
+			--><li><a title="Show slide 3" href="#sl_i3">Slide 3</a></li><!--
+			--><li><a title="Show slide 4" href="#sl_i4">Slide 4</a></li>
+		</ul>
+		
+	</section>
 <div id="menu">
 <?php 
 			  if(empty($_SESSION['user']))
@@ -86,7 +134,7 @@
 
 <h2>Profile</h2>
 <?php
-if($_SESSION[Jenis_Kelamin]=='laki-laki'){
+if($_SESSION['Jenis_Kelamin']=='laki-laki'){
 $picture ='images/male.jpg';
 }else{
 $picture ='images/female.jpg';
@@ -133,8 +181,13 @@ $timeDiff = $lastTime - $firstTime;
 return $timeDiff;
 }
 
-$difference = timeDiff($_SESSION[tanggal], date("Y-m-d H:i:s"));
-$usia = abs(floor($age / 31536000));
+function get_age($birth_date){
+ return floor((time() - strtotime($birth_date))/31556926);
+}
+
+
+$difference = timeDiff($_SESSION['tanggal'], date("Y-m-d H:i:s"));
+$usia = get_age($_SESSION['tanggal_lahir']);
 $years = abs(floor($difference / 31536000));
 $days = abs(floor(($difference - ($years*31536000))/86400));
 $hours = abs(floor(($difference - ($years*31536000) - ($days*86400))/3600));
@@ -200,9 +253,9 @@ echo"<h2>Selamat Anda telah mengikuti program diet sehat selama : <b>". $days . 
 </form>
 
 <?php 
-$pagi = $_POST['makananPagi'];
-$Siang = $_POST['makananSiang'];
-$Malam = $_POST['makananMalam'];
+$pagi = isset($_POST['makananPagi']) ? $_POST['makananPagi'] : "";
+$Siang = isset($_POST['makananSiang']) ? $_POST['makananSiang'] : "";
+$Malam = isset($_POST['makananMalam']) ? $_POST['makananMalam'] : "";
 
 if($pagi=='Oatmeal'){
 	$kaloriPagi=62;
@@ -219,6 +272,8 @@ if($pagi=='Oatmeal'){
 }else if($pagi=='Telur rebus') {
 	$kaloriPagi=97;
 }
+else
+	$kaloriPagi=0;
 
 if($Siang=='Udang tumis cabai'){
 	$kaloriSiang=184;
@@ -239,6 +294,8 @@ if($Siang=='Udang tumis cabai'){
 }else if($Siang=='Pepaya') {
 	$kaloriSiang=92;
 }
+else
+	$kaloriSiang=0;
 
 if($Malam=='Salad ayam dan sayuran'){
 	$kaloriMalam=256;
@@ -255,6 +312,8 @@ if($Malam=='Salad ayam dan sayuran'){
 }else if($Malam=='Kacang polong rebus') {
 	$kaloriMalam=80;
 }
+else
+	$kaloriMalam=0;
 ?>
 
 <div id="result">
