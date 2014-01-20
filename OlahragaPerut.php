@@ -97,33 +97,26 @@
 <div id="content">
 <div id="colOne">
 <h2>Recent Updates</h2>
-<h3>Fakta Bahwa Ternyata Manfaat Air Putih Sangat Banyak</h3>
-<p>Manfaat air putih sepertinya sudah menjadi rahasia umum yang beredar di seluruh masyarakat.<a href="TipsKesehatan.php">  More...</a></p>
-<h3>Macam Protein dan Kegunaannya</h3>
-<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh.<a href="NutrisiProtein.php">  More...</a></p>
-<h3>Pentingnya Kebutuhan Nutrisi</h3>
-<p>Kebutuhan nutrisi sangat penting untuk diketahui oleh semua orang.<a href="NutrisiPenting.php">  More...</a></p>
+<h3>Manfaat Jogging Bagi Tubuh</h3>
+<p>Sebagai upaya menjaga kesehatan, olahraga merupakan suatu keharusan. Tidak perlu pergi ke gym melakukan serangkaian olah raga berat dengan alat-alat gym.<a href="Olahraga.php">  More...</a></p>
+<h3>Menurunkan Berat Badan Lewat Olahraga dan Pengaturan Pola Makan</h3>
+<p>Menurunkan berat badan dijalani secara berkala dengan dua cara utama yang berkesinambungan yaitu pengaturan pola makan dan olahraga teratur.<a href="OlahragaPolaMakan.php">  More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
 </div>
 
 <div id="ColFour">
 <div style="text-align:justify;">
-<h2>Nutrisi dan Manfaat Susu Kedelai</h2>
-<p><strong>Sumber Protein Lengkap</strong></p>
-<p> Susu kedelai mengandung protein lengkap dibandingkan sumber protein nabati lainnya dari berbagai macam asam amino yang diperlukan oleh tubuh. Secangkir sari kedelai mengandung 7 gram protein yang berguna mendukung proses metabolisme dan regenerasi sel.</p>
+<h2>Cara Mengecilkan Perut dengan Mudah</h2>
 
-<p><strong>Rendah Lemak</strong></p>
-<p>Mengkonsumsi sari kedelai secara teratur dapat menurunkan kadar kolesterol jahat atau ҌDLҠdalam tubuh dan meningkatkan kadar kolesterol baik atau ҈DLҮ Hal ini dikarenakan sari kedelai rendah lemak dan menurunkan kadar lemak jenuh yang dikonsumsi tubuh, dan selanjutnya menurunkan kadar kolesterol jahat. Kemampuan sari kedelai menurunkan kadar kolesterol dalam tubuh membantu mencegah penyakit kardiovaskular dan serangan jantung.</p>
+<p>Salah satu kesalahan utama untuk mengecilkan perut adalah pandangan umum bahwa untuk mendapatkan perut rata, maka latihan harus difokuskan pada satu bagian tubuh, yaitu perut. Kombinasi push-up dan sit-up menjadi latihan yang paling sering dilakukan untuk mencapai target ini, namun seringkali bentuk perut tidak menunjukkan perubahan walaupun latihan telah lama dilakukan.</p>
 
-<p><strong>Bebas Laktosa</strong></p>
-<p>Susu kedelai tidak mengandung laktosa, yaitu gula alami yang biasanya terdapat dalam susu sapi. Oleh karena itu, susu kedelai memiliki resiko lebih rendah untuk menimbulkan alergi bila dikonsumsi. Tidak adanya kandungan laktosa juga membuat sari kedelai aman dikonsumsi tanpa menyebabkan gangguan pencernaan.</p>
+<p><strong>Cara Mengecilkan Perut: Postur dan Latihan Teratur</strong></p>
+<p>Cara pertama untuk mengecilkan perut adalah memperbaiki postur Anda. Seringkali perut terlihat buncit karena kita duduk, berdiri, atau berjalan tidak dalam posisi tegap. Berdiri dengan bersandar pada tembok dan lihat diri Anda di cermin. Perbaiki postur Anda dan perhatikan, posisi telinga usahakan sejajar dengan bahu, dada terbuka lebar atau membusung, dan berat badan didistribusikan secara proporsional pada kedua kaki. Postur ini akan menstimulasi bagian perut untuk tertarik dengan sendirinya ke posisi ideal dan memperbaiki penampilan Anda.</p>
+<p>Cara mengecilkan perut selanjutnya adalah kombinasi antara latihan dan pola makan. Latihan ini melibatkan seluruh anggota tubuh, tidak hanya perut, dan juga kardiovaskular. Pilates dan yoga menjadi pilihan untuk latihan teratur ini. Pilates menjadikan perut Anda sebagai inti utama latihan, namun gerakannya juga melibatkan anggota tubuh lainnya seperti lengan, kaki, punggung, dan tubuh bagian bawah. Gerakan perlahan dan kontinyu dalam yoga juga membantu mengencangkan dan menjaga kelenturan baik otot perut maupun otot tubuh lainnya.</p>
 
-<p><strong>Kaya Serat, Isoflavon dan Fitoestrogen</strong></p>
-<p>Sari kedelai juga kaya serat, isoflavon, dan fitoestrogen. Serat membantu proses penurunan berat badan, sebab membuat kita lebih cepat kenyang ketika makan, sehingga membantu mengurangi porsi makan secara bertahap dan membantu melancarkan proses pencernaan. Isoflavon membantu mencegah proses penuaan dini, mencegah kerontokan rambut, dan memelihara keremajaan kulit. Isoflavon juga membantu mengurangi gejala menopause, mencegah diabetes, dan menjaga kerapatan tulang untuk mencegah osteoporosis pada wanita berusia lanjut.</p>
-
-<p><strong>Efek Samping Susu Kedelai</strong></p>
-<p>Namun demikian, sari kedelai ini juga memiliki kekurangan. Sari kedelai memiliki kadar kalsium rendah, bahkan lebih rendah daripada susu sapi. Untuk itu, diperlukan sumber makanan atau minuman lain yang kaya kalsium seperti susu skim rendah lemak untuk membantu mencukupi kebutuhan kalsium harian. Batasi konsumsi sari kedelai jika Anda memiliki kadar asam urat tinggi sebab sari kedelai berpotensi meningkatkan kadar asam urat dalam tubuh dan juga berpengaruh dalam pembentukan batu ginjal.</p>
-
+<p><strong>Cara Mengecilkan Perut: Diet Rendah Kalori</strong></p>
+<p>Pola makan juga berpengaruh pada upaya mengecilkan perut. Atur pola makan Anda dengan diet rendah kalori. Diet ini berarti Anda mengurangi atau mengganti jenis asupan karbohidrat. Tubuh tetap memerlukan kalori untuk beraktivitas. Oleh karena itu, atur asupan karbohidrat Anda agar mengandung karbohidrat kompleks dan serat yang banyak terdapat pada beras merah, oatmeal, dan gandum utuh.</p>
+<p>Upaya mengecilkan perut berlangsung secara terus-menerus dalam waktu lama. Oleh karena itu, set target Anda dalam hitungan bulan untuk mendapatkan perut rata yang diidamkan. Di sisi lain, faktor genetis juga berperan menentukan bentuk perut Anda. Jika Anda terlahir dari keluarga dengan bentuk tulang besar dan bentuk tubuh berlekuk, maka set target Anda agar realistis dengan faktor genetis yang dimiliki sebagai cara mengecilkan perut.</p>
 </div>
  <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
 <div style="clear: both;">&nbsp;</div>

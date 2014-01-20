@@ -113,25 +113,14 @@ a:focus {
 
 #slideshow {
 	position: relative;
-	width: 640px;
-	height: 310px;
-	padding: 15px;
-	border: 1px solid #ddd;
-	margin: 0 auto 40px;
-	background: #FFF;
-	background: -webkit-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-	background: -moz-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-	background: -ms-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-	background: -o-linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-	background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-	
-	-webkit-border-radius: 2px 2px 2px 2px;
-	-moz-border-radius: 2px 2px 2px 2px;
-	border-radius: 2px 2px 2px 2px;
-	
-	-webkit-box-shadow: 0 0 3px rgba(0,0,0, 0.2);
-	-moz-box-shadow: 0 0 3px rgba(0,0,0, 0.2);
-	box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+    width: 815px;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid rgb(221, 221, 221);
+    margin: 0px auto 0px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255) 20%, rgb(238, 238, 238) 80%, rgb(221, 221, 221)) repeat scroll 0% 0% transparent;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
 }
 
 /* avanced box-shadow : http://www.creativejuiz.fr/blog/les-tutoriels/ombre-avancees-avec-css3-et-box-shadow */
@@ -336,8 +325,8 @@ a:focus {
 
 #slideshow .container {
 	position:relative;
-	width: 640px;
-	height: 310px;
+	width: 815px;
+	height: 200px;
 	overflow: hidden;
 }
 /* timeline base */

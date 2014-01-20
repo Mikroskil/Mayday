@@ -97,32 +97,25 @@
 <div id="content">
 <div id="colOne">
 <h2>Recent Updates</h2>
-<h3>Fakta Bahwa Ternyata Manfaat Air Putih Sangat Banyak</h3>
-<p>Manfaat air putih sepertinya sudah menjadi rahasia umum yang beredar di seluruh masyarakat.<a href="TipsKesehatan.php">  More...</a></p>
-<h3>Macam Protein dan Kegunaannya</h3>
-<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh.<a href="NutrisiProtein.php">  More...</a></p>
-<h3>Pentingnya Kebutuhan Nutrisi</h3>
-<p>Kebutuhan nutrisi sangat penting untuk diketahui oleh semua orang.<a href="NutrisiPenting.php">  More...</a></p>
+<h3>Manfaat Jogging Bagi Tubuh</h3>
+<p>Sebagai upaya menjaga kesehatan, olahraga merupakan suatu keharusan. Tidak perlu pergi ke gym melakukan serangkaian olah raga berat dengan alat-alat gym.<a href="Olahraga.php">  More...</a></p>
+<h3>Cara Mengecilkan Perut dengan Mudah</h3>
+<p>Salah satu kesalahan utama untuk mengecilkan perut adalah pandangan umum bahwa untuk mendapatkan perut rata, maka latihan harus difokuskan pada satu bagian tubuh, yaitu perut.<a href="OlahragaPerut.php">  More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
 </div>
 
 <div id="ColFour">
 <div style="text-align:justify;">
-<h2>Nutrisi dan Manfaat Susu Kedelai</h2>
-<p><strong>Sumber Protein Lengkap</strong></p>
-<p> Susu kedelai mengandung protein lengkap dibandingkan sumber protein nabati lainnya dari berbagai macam asam amino yang diperlukan oleh tubuh. Secangkir sari kedelai mengandung 7 gram protein yang berguna mendukung proses metabolisme dan regenerasi sel.</p>
+<h2>Menurunkan Berat Badan Lewat Olahraga dan Pengaturan Pola Makan</h2>
+<p>Menurunkan berat badan dijalani secara berkala dengan dua cara utama yang berkesinambungan yaitu pengaturan pola makan dan olahraga teratur. Kedua cara ini sebaiknya dilakukan secara bersamaan untuk menjaga bentuk tubuh, kebugaran, dan elastisitas kulit ketika berat badan menyusut. Pengaturan pola makan tidak berarti Anda harus mengurangi secara drastis porsi makan harian. Sebaliknya, hal ini justru memicu kenaikan berat badan, sebab pengurangan porsi makanan secara drastis akan menstimulasi otak untuk mengirim sinyal rasa lapar dan menyebabkan Anda ingin makan lebih banyak dari sebelumnya.</p>
 
-<p><strong>Rendah Lemak</strong></p>
-<p>Mengkonsumsi sari kedelai secara teratur dapat menurunkan kadar kolesterol jahat atau ҌDLҠdalam tubuh dan meningkatkan kadar kolesterol baik atau ҈DLҮ Hal ini dikarenakan sari kedelai rendah lemak dan menurunkan kadar lemak jenuh yang dikonsumsi tubuh, dan selanjutnya menurunkan kadar kolesterol jahat. Kemampuan sari kedelai menurunkan kadar kolesterol dalam tubuh membantu mencegah penyakit kardiovaskular dan serangan jantung.</p>
+<p><strong>Menurunkan Berat Badan lewat Pola Makan</strong></p>
+<p>Pengaturan pola makan mencakup jenis, jumlah, dan jam makan yang disesuaikan dengan aktivitas harian. Untuk menurunkan bobot tubuh, asupan kalori menjadi salah satu aspek penting. Tubuh perlu asupan kalori sebagai sumber energi dalam beraktivitas. Untuk itu, pilihlah sumber kalori yang berasal dari karbohidrat kompleks dan berserat. Sebab, nutrisi ini diserap secara berkala oleh tubuh sehingga pemanfaatan kalori sebagai sumber energi berlangsung lebih efektif. Serat yang terkandung di dalamnya membantu kita merasa kenyang walaupun makan dalam porsi kecil.</p>
+<p>Sayuran dan buah menjadi aspek penting lainnya dalam proses penurunan berat badan. Sayuran menempati porsi terbanyak dalam piring makan Anda di setiap waktu makan. Vitamin dan mineral yang terkandung di dalam sayur-sayuran membantu menjaga kesehatan dan proses metabolisme serta menurunkan berat badan sebab lebih banyak porsi sayuran berarti mengurangi asupan lemak dalam tubuh.</p>
+<p>Sumber protein nabati menjadi kombinasi gizi seimbang selanjutnya. Nutrisi ini dapat diperoleh dari kacang-kacangan seperti kedelai. Asupan protein nabati dan lemak tak jenuh membantu melancarkan proses metabolisme dan regenerasi sel, serta mengurangi asupan lemak jenuh yang banyak terdapat pada daging.</p>
 
-<p><strong>Bebas Laktosa</strong></p>
-<p>Susu kedelai tidak mengandung laktosa, yaitu gula alami yang biasanya terdapat dalam susu sapi. Oleh karena itu, susu kedelai memiliki resiko lebih rendah untuk menimbulkan alergi bila dikonsumsi. Tidak adanya kandungan laktosa juga membuat sari kedelai aman dikonsumsi tanpa menyebabkan gangguan pencernaan.</p>
-
-<p><strong>Kaya Serat, Isoflavon dan Fitoestrogen</strong></p>
-<p>Sari kedelai juga kaya serat, isoflavon, dan fitoestrogen. Serat membantu proses penurunan berat badan, sebab membuat kita lebih cepat kenyang ketika makan, sehingga membantu mengurangi porsi makan secara bertahap dan membantu melancarkan proses pencernaan. Isoflavon membantu mencegah proses penuaan dini, mencegah kerontokan rambut, dan memelihara keremajaan kulit. Isoflavon juga membantu mengurangi gejala menopause, mencegah diabetes, dan menjaga kerapatan tulang untuk mencegah osteoporosis pada wanita berusia lanjut.</p>
-
-<p><strong>Efek Samping Susu Kedelai</strong></p>
-<p>Namun demikian, sari kedelai ini juga memiliki kekurangan. Sari kedelai memiliki kadar kalsium rendah, bahkan lebih rendah daripada susu sapi. Untuk itu, diperlukan sumber makanan atau minuman lain yang kaya kalsium seperti susu skim rendah lemak untuk membantu mencukupi kebutuhan kalsium harian. Batasi konsumsi sari kedelai jika Anda memiliki kadar asam urat tinggi sebab sari kedelai berpotensi meningkatkan kadar asam urat dalam tubuh dan juga berpengaruh dalam pembentukan batu ginjal.</p>
+<p><strong>Olahraga untuk menurunkan Berat Badan</strong></p>
+<p>Pengaturan pola makan ini sebaiknya diimbangi dengan olahraga rutin setiap hari seperti peregangan atau jogging. Bagi mereka yang berupaya menurunkan berat badan disarankan untuk membuat jurnal pola makan untuk mengevaluasi asupan gizi yang dikonsumsi selama proses penurunan berat badan. Penurunan berat badan ideal adalah 1,5 kg per minggu. Pengecekan berat badan secara berkala minimal seminggu sekali membantu proses menurunkan berat badan.</p>
 
 </div>
  <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->

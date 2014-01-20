@@ -30,17 +30,9 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	<section id="slideshow">
 	
-		<a class="commands prev commands1" href="#sl_i4" title="Go to last slide">&lt;</a>
-		<a class="commands next commands1" href="#sl_i2" title="Go to 2nd slide">&gt;</a>
-		<a class="commands prev commands2" href="#sl_i1" title="Go to 1rst slide">&lt;</a>
-		<a class="commands next commands2" href="#sl_i3" title="Go to 3rd slide">&gt;</a>
-		<a class="commands prev commands3" href="#sl_i2" title="Go to 2nd slide">&lt;</a>
-		<a class="commands next commands3" href="#sl_i4" title="Go to 4th slide">&gt;</a>
-		<a class="commands prev commands4" href="#sl_i3" title="Go to 3rd slide">&lt;</a>
-		<a class="commands next commands4" href="#sl_i1" title="Go to first slide">&gt;</a>
-		
+	<section id="slideshow">
+			
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
 		
@@ -48,19 +40,19 @@
 			<div class="c_slider"></div>
 			<div class="slider">
 				<figure>
-					<img src="img/dummy-640x310-1.jpg" alt="" width="640" height="310" />
+					<img src="img/dummy-640x310-1.jpg" alt="" width="815" height="200" />
 					<figcaption>The mirror of soul</figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-2.jpg" alt="" width="640" height="310" />
+					<img src="img/dummy-640x310-2.jpg" alt="" width="815" height="200" />
 					<figcaption>Let's cross that bridge when we come to it</figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-3.jpg" alt="" width="640" height="310" />
+					<img src="img/dummy-640x310-3.jpg" alt="" width="815" height="200" />
 					<figcaption>Sushi<em>(do)</em> time</figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-4.jpg" alt="" width="640" height="310" />
+					<img src="img/dummy-640x310-4.jpg" alt="" width="815" height="200" />
 					<figcaption>Waking Life</figcaption>
 				</figure>
 			</div>
@@ -68,14 +60,9 @@
 		
 		<span id="timeline"></span>
 		
-		<ul class="dots_commands"><!--
-			--><li><a title="Show slide 1" href="#sl_i1">Slide 1</a></li><!--
-			--><li><a title="Show slide 2" href="#sl_i2">Slide 2</a></li><!--
-			--><li><a title="Show slide 3" href="#sl_i3">Slide 3</a></li><!--
-			--><li><a title="Show slide 4" href="#sl_i4">Slide 4</a></li>
-		</ul>
 		
 	</section>
+
 <div id="menu">
 <?php 
 			  if(empty($_SESSION['user']))
@@ -83,7 +70,12 @@
 				echo"
               <ul>
                 <li ><a href='index.php' accesskey='1' title=''>Home</a></li>
-				<li><a href='NutrisiSuplemen.php' accesskey='2' title=''>Tips Kesehatan</a></li>
+				<li ><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
+					<ul>
+						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
+						<li><a href='Olahraga.php'>Olahraga</a></li>
+					</ul>
+				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
 				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
 				<li class='active'><a href='register.php' accesskey='5' title=''>Register</a></li>
@@ -94,7 +86,12 @@
 				echo"
 			  <ul>
 				<li ><a href='index.php' accesskey='1' title=''>Home</a></li>
-				<li><a href='NutrisiSuplemen.php' accesskey='2' title=''>Tips Kesehatan</a></li>
+				<li ><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
+					<ul>
+						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
+						<li><a href='Olahraga.php'>Olahraga</a></li>
+					</ul>
+				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
 				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
 				<li class='active'><a href='profil.php'>Profil</a></li>          
@@ -105,7 +102,7 @@
 <div id="content">
 <div id="colOne">
 
-<?php echo"<h2>$_SESSION[Nama]</h2>";?>
+<?php echo" <h2> Hai, $_SESSION[Nama]</h2>";?>
 
 <!--<form method="POST"  enctype="multipart/form-data" action="prosesupload.php">
 <div id="upload"  >
@@ -122,17 +119,17 @@
 -->
 <h2>Recent Updates</h2>
 <h3>Nutrisi dan Manfaat Susu Kedelai Bagi Tubuh</h3>
-<p>Susu kedelai merupakan sumber protein nabati yang efektif untuk menjaga kesehatan dan menurunkan kolesterol.<a href="#">  More...</a></p>
+<p>Susu kedelai merupakan sumber protein nabati yang efektif untuk menjaga kesehatan dan menurunkan kolesterol.<a href="NutrisiSusu.php">  More...</a></p>
 <h3>Macam Protein dan Kegunaannya</h3>
-<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh.<a href="#">  More...</a></p>
+<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh.<a href="NutrisiProtein.php">  More...</a></p>
 <h3>Pentingnya Kebutuhan Nutrisi</h3>
-<p>Kebutuhan nutrisi sangat penting untuk diketahui oleh semua orang.<a href="#">  More...</a></p>
+<p>Kebutuhan nutrisi sangat penting untuk diketahui oleh semua orang.<a href="NutrisiPenting.php">  More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
 </div>
 
 <div id="ColFour">
 
-<h2>Profile</h2>
+<!-- <h2>Profile</h2> -->
 <?php
 if($_SESSION['Jenis_Kelamin']=='laki-laki'){
 $picture ='images/male.jpg';
@@ -186,7 +183,7 @@ function get_age($birth_date){
 }
 
 
-$difference = timeDiff($_SESSION['tanggal'], date("Y-m-d H:i:s"));
+$difference = abs(floor(timeDiff($_SESSION['tanggal'], date("Y-m-d H:i:s"))));
 $usia = get_age($_SESSION['tanggal_lahir']);
 $years = abs(floor($difference / 31536000));
 $days = abs(floor(($difference - ($years*31536000))/86400));
@@ -194,6 +191,7 @@ $hours = abs(floor(($difference - ($years*31536000) - ($days*86400))/3600));
 $min = abs(floor(($difference - ($years*31536000) - ($days*86400) - ($hours * 3600))/60));
 #floor($difference / 60);
 
+echo"<h2>Umur anda sekarang : <b>". $usia . " Tahun.</b></h2>";
 echo"<h2>Selamat Anda telah mengikuti program diet sehat selama : <b>". $days . " Hari.</b></h2>";
 ?>
 
@@ -253,15 +251,38 @@ echo"<h2>Selamat Anda telah mengikuti program diet sehat selama : <b>". $days . 
 </form>
 
 <?php 
-$pagi = isset($_POST['makananPagi']) ? $_POST['makananPagi'] : "";
-$Siang = isset($_POST['makananSiang']) ? $_POST['makananSiang'] : "";
-$Malam = isset($_POST['makananMalam']) ? $_POST['makananMalam'] : "";
+//data yang lama
+$host = "localhost";
+$username = "root";
+$password = "";
+$databasename = "dbsehat";
+$connection = mysql_connect($host, $username, $password) or die("Kesalahan Koneksi ... !!");
+mysql_select_db($databasename, $connection) or die("Databasenya Error");
 
+$usernama = $_SESSION['user'];
+$sql = mysql_query("SELECT * FROM user WHERE Username = '$usernama'");
+$data = mysql_fetch_array($sql);
+$hasil = mysql_num_rows($sql);
+
+if($hasil>0) {
+	$pagi=$data['Pagi'];
+	$Siang=$data['Siang'];
+	$Malam=$data['Malam'];
+}
+
+
+//data yg baru
+$pagi = isset($_POST['makananPagi']) ? $_POST['makananPagi'] : $pagi;
+$Siang = isset($_POST['makananSiang']) ? $_POST['makananSiang'] : $Siang;
+$Malam = isset($_POST['makananMalam']) ? $_POST['makananMalam'] : $Malam;
+
+
+	
 if($pagi=='Oatmeal'){
 	$kaloriPagi=62;
-}else if($pagi=='Susu segar'){
+}else if($pagi=='Susu Segar'){
 	$kaloriPagi=170;
-}else if($pagi=='Jus apel'){
+}else if($pagi=='Jus Apel'){
 	$kaloriPagi=123;
 }else if($pagi=='Pancake kentang') {
 	$kaloriPagi=190;
@@ -274,6 +295,7 @@ if($pagi=='Oatmeal'){
 }
 else
 	$kaloriPagi=0;
+	
 
 if($Siang=='Udang tumis cabai'){
 	$kaloriSiang=184;
@@ -297,6 +319,8 @@ if($Siang=='Udang tumis cabai'){
 else
 	$kaloriSiang=0;
 
+
+	
 if($Malam=='Salad ayam dan sayuran'){
 	$kaloriMalam=256;
 }else if($Malam=='Sup ayam dan sayuran'){
@@ -314,6 +338,11 @@ if($Malam=='Salad ayam dan sayuran'){
 }
 else
 	$kaloriMalam=0;
+
+if(isset($_POST['makananPagi']) && isset($_POST['makananSiang']) && isset($_POST['makananMalam'])){
+	$query = mysql_query("UPDATE user SET Pagi='$pagi', Siang='$Siang', Malam='$Malam' 
+	WHERE Username='$usernama'",$connection)or die(mysql_error());
+}
 ?>
 
 <div id="result">
@@ -325,11 +354,16 @@ else
 		<p> $Malam = $kaloriMalam Kal</p>";
 		$total = $kaloriPagi + $kaloriSiang + $kaloriMalam;
 		echo "<h2> Total Kalori = $total Kal</h2>";
-	}else{
-	echo "<div id='div'>
-		<p> $pagi = $kaloriPagi</p>
-		<p> $Siang = $kaloriSiang</p>
-		<p> $Malam = $kaloriMalam</p></div>";
+	}
+	else{
+		if($kaloriPagi!=""){
+			echo "
+			<p> $pagi = $kaloriPagi Kal</p>
+			<p> $Siang = $kaloriSiang Kal</p>
+			<p> $Malam = $kaloriMalam Kal</p>";
+			$total = $kaloriPagi + $kaloriSiang + $kaloriMalam;
+			echo "<h2> Total Kalori = $total Kal</h2>";
+		}
 	}
 	
 	
@@ -341,6 +375,6 @@ else
 <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
 <div style="clear: both;">&nbsp;</div>
 </div>
-<div id="footer">
+<div id="footer"> <p align="center"> @copyright 2013 MAYDAY Team </p>
 </div>
 </body></html>

@@ -28,17 +28,9 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	<section id="slideshow">
 	
-		<a class="commands prev commands1" href="#sl_i4" title="Go to last slide">&lt;</a>
-		<a class="commands next commands1" href="#sl_i2" title="Go to 2nd slide">&gt;</a>
-		<a class="commands prev commands2" href="#sl_i1" title="Go to 1rst slide">&lt;</a>
-		<a class="commands next commands2" href="#sl_i3" title="Go to 3rd slide">&gt;</a>
-		<a class="commands prev commands3" href="#sl_i2" title="Go to 2nd slide">&lt;</a>
-		<a class="commands next commands3" href="#sl_i4" title="Go to 4th slide">&gt;</a>
-		<a class="commands prev commands4" href="#sl_i3" title="Go to 3rd slide">&lt;</a>
-		<a class="commands next commands4" href="#sl_i1" title="Go to first slide">&gt;</a>
-		
+	<section id="slideshow">
+			
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
 		
@@ -46,32 +38,26 @@
 			<div class="c_slider"></div>
 			<div class="slider">
 				<figure>
-					<img src="img/dummy-640x310-1.jpg" alt="" width="640" height="310" />
-					<figcaption>The mirror of soul</figcaption>
+					<img src="img/dummy-640x310-1.jpg" alt="" width="815" height="200" />
+					<figcaption>Makanan Anda Diet Anda</figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-2.jpg" alt="" width="640" height="310" />
-					<figcaption>Let's cross that bridge when we come to it</figcaption>
+					<img src="img/dummy-640x310-2.jpg" alt="" width="815" height="200" />
+					<figcaption>Makanan Sehat</figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-3.jpg" alt="" width="640" height="310" />
+					<img src="img/dummy-640x310-3.jpg" alt="" width="815" height="200" />
 					<figcaption>Sushi<em>(do)</em> time</figcaption>
 				</figure><!--
 				--><figure>
-					<img src="img/dummy-640x310-4.jpg" alt="" width="640" height="310" />
-					<figcaption>Waking Life</figcaption>
+					<img src="img/dummy-640x310-4.jpg" alt="" width="815" height="200" />
+					<figcaption>Juventus FC</figcaption>
 				</figure>
 			</div>
 		</div>
 		
 		<span id="timeline"></span>
 		
-		<ul class="dots_commands"><!--
-			--><li><a title="Show slide 1" href="#sl_i1">Slide 1</a></li><!--
-			--><li><a title="Show slide 2" href="#sl_i2">Slide 2</a></li><!--
-			--><li><a title="Show slide 3" href="#sl_i3">Slide 3</a></li><!--
-			--><li><a title="Show slide 4" href="#sl_i4">Slide 4</a></li>
-		</ul>
 		
 	</section>
 
@@ -82,11 +68,10 @@
 				echo"
               <ul>
                 <li class='active'><a href='index.php' accesskey='1' title=''>Home</a></li>
-				<li><a href='NutrisiSuplemen.php' accesskey='2' title=''>Tips Kesehatan</a>
+				<li><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
-						<li><a href='#'>Photoshop</a></li>
-						<li><a href='#'>Illustrator</a></li>
-						<li><a href='#'>Web Design</a></li>
+						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
+						<li><a href='Olahraga.php'>Olahraga</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -99,7 +84,12 @@
 				echo"
 			  <ul>
 				<li class='active'><a href='index.php' accesskey='1' title=''>Home</a></li>
-				<li><a href='NutrisiSuplemen.php' accesskey='2' title=''>Tips Kesehatan</a></li>
+				<li ><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
+					<ul>
+						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
+						<li><a href='Olahraga.php'>Olahraga</a></li>
+					</ul>
+				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
 				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
 				<li><a href='profil.php'>Profil</a></li>          
@@ -179,13 +169,12 @@
 			  
 <h2>Recent Updates</h2>
 <h3>Nutrisi dan Manfaat Susu Kedelai Bagi Tubuh</h3>
-<p>Susu kedelai merupakan sumber protein nabati yang efektif untuk menjaga kesehatan dan menurunkan kolesterol.<a href="#">  More...</a></p>
+<p>Susu kedelai merupakan sumber protein nabati yang efektif untuk menjaga kesehatan dan menurunkan kolesterol.<a href="NutrisiSusu.php">  More...</a></p>
 <h3>Macam Protein dan Kegunaannya</h3>
-<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh.<a href="#">  More...</a></p>
+<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh.<a href="NutrisiProtein.php">  More...</a></p>
 <h3>Pentingnya Kebutuhan Nutrisi</h3>
-<p>Kebutuhan nutrisi sangat penting untuk diketahui oleh semua orang.<a href="#">  More...</a></p>
+<p>Kebutuhan nutrisi sangat penting untuk diketahui oleh semua orang.<a href="NutrisiPenting.php">  More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
-
 <div class="set-box set-block widget wet_bmicalc" id="wet_bmicalc">
     <div class="set-box-body set-block-body"><div class="set-bar set-blockheader">
     <div class="t"><b>Kalkulator IMT (Indeks Massa Tubuh)</b></div>
@@ -257,6 +246,7 @@ function wet_bmicalc()
 </div>
 
 </div>
+
 <div id="ColFour">
 	<h2>Selamat datang di Situs Kami</h2>
 	<div style="text-align:justify;">
@@ -277,7 +267,7 @@ function wet_bmicalc()
 </div>
 <div style="clear: both;">&nbsp;</div>
 </div>
-<div id="footer">
+<div id="footer"> <p align="center"> @copyright 2013 MAYDAY Team </p>
 </div>
 </body>
 </html>

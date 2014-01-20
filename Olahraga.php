@@ -58,7 +58,7 @@
 		
 	</section>
 
-<div id="menu">
+	<div id="menu">
 <?php 
 			  if(empty($_SESSION['user']))
 			  {
@@ -97,32 +97,27 @@
 <div id="content">
 <div id="colOne">
 <h2>Recent Updates</h2>
-<h3>Fakta Bahwa Ternyata Manfaat Air Putih Sangat Banyak</h3>
-<p>Manfaat air putih sepertinya sudah menjadi rahasia umum yang beredar di seluruh masyarakat.<a href="TipsKesehatan.php">  More...</a></p>
-<h3>Macam Protein dan Kegunaannya</h3>
-<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh.<a href="NutrisiProtein.php">  More...</a></p>
-<h3>Pentingnya Kebutuhan Nutrisi</h3>
-<p>Kebutuhan nutrisi sangat penting untuk diketahui oleh semua orang.<a href="NutrisiPenting.php">  More...</a></p>
+<h3>Cara Mengecilkan Perut dengan Mudah</h3>
+<p>Salah satu kesalahan utama untuk mengecilkan perut adalah pandangan umum bahwa untuk mendapatkan perut rata, maka latihan harus difokuskan pada satu bagian tubuh, yaitu perut.<a href="OlahragaPerut.php">  More...</a></p>
+<h3>Menurunkan Berat Badan Lewat Olahraga dan Pengaturan Pola Makan</h3>
+<p>Menurunkan berat badan dijalani secara berkala dengan dua cara utama yang berkesinambungan yaitu pengaturan pola makan dan olahraga teratur.<a href="OlahragaPolaMakan.php">  More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
 </div>
 
 <div id="ColFour">
 <div style="text-align:justify;">
-<h2>Nutrisi dan Manfaat Susu Kedelai</h2>
-<p><strong>Sumber Protein Lengkap</strong></p>
-<p> Susu kedelai mengandung protein lengkap dibandingkan sumber protein nabati lainnya dari berbagai macam asam amino yang diperlukan oleh tubuh. Secangkir sari kedelai mengandung 7 gram protein yang berguna mendukung proses metabolisme dan regenerasi sel.</p>
+<h2>Manfaat Jogging Bagi Tubuh</h2>
+<p>Sebagai upaya menjaga kesehatan, olahraga merupakan suatu keharusan. Tidak perlu pergi ke gym melakukan serangkaian olah raga berat dengan alat-alat gym. Lari-lari kecil atau yang sering disebut jogging juga merupakan aktivitas yang sangat mudah dilakukan dalam olahraga. Tidak perlu mengeluarkan biaya mahal untuk pergi ke pusat kebugaran atau gym, selain itu jogging juga bisa dilakukan dimana saja.</p>
+<p>Hebatnya, selain murah dan mudah, jogging memiliki sederet manfaat bagi kesehatan kita. Kita simak artikel dibawah ini untuk lebih mengetahui manfaat-manfaat dari olahraga jogging baik bagi kesehatan tubuh.</p>
+<p><strong>Manfaat Jogging Bagi Tubuh</strong></p>
+<p>Sebagai aktivitas olahraga, jogging sudah barang tentu membawa serentetan efek positif bagi kesehatan tubuh. Berikut ini adalah manfaat-manfaatnya</p>
+<p>1. Membakar lemak</p>
+<p>Hampir seluruh kegiatan berolahraga akan menguras tenaga. Sebagai sumber penghasil tenaga, lemak dalam tubuh akan mengalami pembakaran paling maksimal ketika seseorang berolahraga. Nah, dalam hal inilah jogging juga sangat bermanfaat membakar lemak dalam tubuh anda</p>
+<p>2. Menurunkan berat badan</p>
+<p>Pada manfaat nomor satu telah dijelaskan bahwa jogging sangat bermanfaat dalam membakar lemak, maka dari itu secara otomatis akan berpengaruh terhadap berat badan. Dengan jogging secara teratur, maka dapat dikatakan akan terjadi pembakaran lemak yang rutin. Dengan itu, lemak dalam tubuh tidak akan menumpuk dan tubuh akan lebih terasa fresh dan langsing.</p>
+<p>3. Mencegah datangnya penyakit</p>
+<p>Karena keefektifannya dalam membakar lemak, jogging juga sangat bermanfaat dalam aksi pencegahan datangnya berbagai macam penyakit. Jika jogging secara teratur dilakukan dan lemak didalam tubuh berkurang, aliran darah pun akan semakin lancar. Dengan lancarnya aliran peredaran darah, berbagai macam penyakit seperti kolesterol, stroke, jantung koroner, hipertensi akan jauh dari kehidupan anda.</p>
 
-<p><strong>Rendah Lemak</strong></p>
-<p>Mengkonsumsi sari kedelai secara teratur dapat menurunkan kadar kolesterol jahat atau ҌDLҠdalam tubuh dan meningkatkan kadar kolesterol baik atau ҈DLҮ Hal ini dikarenakan sari kedelai rendah lemak dan menurunkan kadar lemak jenuh yang dikonsumsi tubuh, dan selanjutnya menurunkan kadar kolesterol jahat. Kemampuan sari kedelai menurunkan kadar kolesterol dalam tubuh membantu mencegah penyakit kardiovaskular dan serangan jantung.</p>
-
-<p><strong>Bebas Laktosa</strong></p>
-<p>Susu kedelai tidak mengandung laktosa, yaitu gula alami yang biasanya terdapat dalam susu sapi. Oleh karena itu, susu kedelai memiliki resiko lebih rendah untuk menimbulkan alergi bila dikonsumsi. Tidak adanya kandungan laktosa juga membuat sari kedelai aman dikonsumsi tanpa menyebabkan gangguan pencernaan.</p>
-
-<p><strong>Kaya Serat, Isoflavon dan Fitoestrogen</strong></p>
-<p>Sari kedelai juga kaya serat, isoflavon, dan fitoestrogen. Serat membantu proses penurunan berat badan, sebab membuat kita lebih cepat kenyang ketika makan, sehingga membantu mengurangi porsi makan secara bertahap dan membantu melancarkan proses pencernaan. Isoflavon membantu mencegah proses penuaan dini, mencegah kerontokan rambut, dan memelihara keremajaan kulit. Isoflavon juga membantu mengurangi gejala menopause, mencegah diabetes, dan menjaga kerapatan tulang untuk mencegah osteoporosis pada wanita berusia lanjut.</p>
-
-<p><strong>Efek Samping Susu Kedelai</strong></p>
-<p>Namun demikian, sari kedelai ini juga memiliki kekurangan. Sari kedelai memiliki kadar kalsium rendah, bahkan lebih rendah daripada susu sapi. Untuk itu, diperlukan sumber makanan atau minuman lain yang kaya kalsium seperti susu skim rendah lemak untuk membantu mencukupi kebutuhan kalsium harian. Batasi konsumsi sari kedelai jika Anda memiliki kadar asam urat tinggi sebab sari kedelai berpotensi meningkatkan kadar asam urat dalam tubuh dan juga berpengaruh dalam pembentukan batu ginjal.</p>
 
 </div>
  <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->

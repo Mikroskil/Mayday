@@ -1,5 +1,5 @@
 <?php
-	session_start();	
+	session_start();
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -65,14 +65,14 @@
 				echo"
               <ul>
                 <li ><a href='index.php' accesskey='1' title=''>Home</a></li>
-				<li><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
+				<li class='active'><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li><a href='Olahraga.php'>Olahraga</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li class='active'><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
 				<li><a href='register.php' accesskey='5' title=''>Register</a></li>
               </ul>";
 			  }
@@ -81,14 +81,14 @@
 				echo"
 			  <ul>
 				<li ><a href='index.php' accesskey='1' title=''>Home</a></li>
-				<li><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
+				<li class='active'><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li><a href='Olahraga.php'>Olahraga</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li class='active'><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
 				<li><a href='profil.php'>Profil</a></li>          
               </ul>";	
 			  }
@@ -97,10 +97,10 @@
 <div id="content">
 <div id="colOne">
 <h2>Recent Updates</h2>
+<h3>Fakta Bahwa Ternyata Manfaat Air Putih Sangat Banyak</h3>
+<p>Manfaat air putih sepertinya sudah menjadi rahasia umum yang beredar di seluruh masyarakat.<a href="TipsKesehatan.php">  More...</a></p>
 <h3>Nutrisi dan Manfaat Susu Kedelai Bagi Tubuh</h3>
 <p>Susu kedelai merupakan sumber protein nabati yang efektif untuk menjaga kesehatan dan menurunkan kolesterol.<a href="NutrisiSusu.php">  More...</a></p>
-<h3>Macam Protein dan Kegunaannya</h3>
-<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh.<a href="NutrisiProtein.php">  More...</a></p>
 <h3>Pentingnya Kebutuhan Nutrisi</h3>
 <p>Kebutuhan nutrisi sangat penting untuk diketahui oleh semua orang.<a href="NutrisiPenting.php">  More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
@@ -108,45 +108,21 @@
 
 <div id="ColFour">
 <div style="text-align:justify;">
-<h2>PERTANYAAN SEPUTAR DIET</h2>
-<p>(Tanya) A : Diet itu apa sih ?</p>
-<p>(Jawab) B : Diet adalah manajemen makan. Diet bukan mengurangi porsi makan. Diet lebih pada bagaimana kita menyeimbangkan menu makan kita dalam sehari. 
-Diet berlaku bagi semua orang, tidak hanya bagi mereka yang gemuk. </p>
+<h2>Macam Protein dan Kegunaannya</h2>
+<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh. Sebagai bahan pembangun, protein memiliki peran dalam pembentukan sel-sel yang baru dan menggantikan sel-sel yang telah mati. Ada dua macam protein yang kita dapatkan dari makanan, protein hewani dan protein nabati. Protein hewani adalah protein yang kita peroleh dari hewan. Kita bisa mengkonsumsi daging sapi, ayam, kambing dll. telur juga merupakan sumber protein hewani yang cukup tinggi.</p>
+<p>Sedangkan protein nabati adalah protein yang bisa kita peroleh dari tanaman. Kita bisa mendapatkan kandungan protein nabati dari kacang-kacangan, juga tahu dan tempe. Jika Anda ingin menerapkan pola hidup sehat dengan menghindari makanan-makanan yang mengandung karbohidrat tinggi, Anda bisa memperbanyak asupan protein dalam tubuh Anda. Protein-protein ini juga bisa digunakan menggantikan karbohidrat dalam tubuh. Meskipun demikian, mengkonsumsi karbohidrat masih diperlukan.</p>
 
-<p>(Tanya) A : Kenapa sih banyak orang gagal diet ?</p>
-<p>(Jawab) B : Sarapan dengan menu yang salah, Kurang konsumsi air putih dalam sehari, Mengkonsumsi pil diet tanpa disertai perbaikan pola makan yang lebih baik, Kurang aktivitas gerak / olahraga.</p>
+<p><strong>Protein Nabati atau Protein Hewani</strong></p>
+<p>Ada juga cara lain untuk melakukan diet. Anda bisa menjadi vegetarian. Apa itu vegetarian? Vegetarian adalah orang yang tidak mengkonsumsi apapun yang berasal dari hewan. Ada banyak macam vegetarian. Dan Anda bisa mulai melakukannya dari yang paling mudah. Pertama, ada vegetarian yang hanya tidak mengkonsumsi daging merah. Jadi mereka masih mengkonsumsi daging putih, yakni ikan. Ada juga yang tidak mengkonsumsi daging apapun. Tetapi mereka masih mengkonsumsi telur dan susu.</p>
+<p> Anda juga bisa untuk tidak mengkonsumsi segala macam daging dan makanan olahan yang berasal dari hewan. Dalam tahapan ini, Anda tak lagi mengkonsumsi apapun yang berhubungan dengan hewan. Anda hanya mengkonsumsi makanan yang berasal dari tumbuhan. Tapi Anda tak perlu takut, karena meskipun Anda tidak mengkonsumsi makanan yang berasal dari hewan, Anda masih bisa  mendapatkan asupan nutrisi lengkap yang meliputi karbohidrat, lemak, dan protein dari tumbuhan, konsumsi vitamin yang tinggi akan baik untuk tubuh Anda.</p>
 
-<p>(Tanya) A : Diet pakai alat ?</p>
-<p>(Jawab) B : Ya, itu bisa berhasil. Pada dasarnya alat adalah alat bantu supaya diet kita lebih optomal. Tentu disertai perbaikan pola makan dan gaya hidup supaya hasilnya lebih permanen.
-Alat bisa berupa: suplemen, nutrisi, pil pelangsing, alat kedokteran, operasi.
-Kesimpulannya:
-Pengelolaan pola makan yang seimbang adalah dasar dari usaha kita untuk mewujudkan berat badan yang ideal dan kebugaran yang optimal.
-</p>
-
-<p>(Tanya) A : Diet dengan manajemen makan itu seperti apa ?</p>
-<p>(Jawab) B : Konsep diet dengan pengelolaan pola makan kami.
-Konsepnya adalah: 3x makan utama ataupun camilan
-Ditambah dengan : 3 – 4.5 liter air putih sehari dan olahraga 1-2x seminggu dan mengkonsumsi buah pendukung diet sehat seperti: apel, pisang, alpukat (tanpa ditambahi gula/sirup), pepaya, semangka, pir, kiwi.
-</p>
-
-<p>(Tanya) A : Berapa kalori dalam sehari yang harus dikonsumsi ?</p>
-<p>(Jawab) B : Rata-rata wanita butuh 1500 – 2000 kalori sehari.
-Rata-rata pria butuh 2000 – 2500 kalori sehari.
-Jika anda seorang wanita, total konsumsi 1000 kalori dalam sehari yang dibagi menjadi 3x makan, akan memaksa tubuh anda mengambil cadangan lemak anda dan dibakar menjadi kalori. Itungan matematisnya adalah anda bisa turun 2-4 kg sebulan.
-</p>
-
-<p>(Tanya) A : Apakah olahraga bisa membantu diet saya ?</p>
-<p>(Jawab) B : Ya, sangat bisa.
-Fungsi olahraga adalah membakar lemak di pembuluh darah dan meningkatkan metabolisme. Metabolisme yang optimal akan memudahkan organ hati untuk mencerna lemak menjadi energi yang pada intinya adalah membantu organ tubuh membakar lemak lebih banyak menjadi energi.
-Olahraga juga berfungsi untuk membentuk massa otot.
-Massa otot = mesin pembakar lemak. 
-Setiap 1 kg massa otot kita bisa membakar 60 kalori lemak dalam sehari.
-</p>
-
-</div> </div>
-<!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
+<p><strong>Bisakah Protein Hewani Diganti Protein Nabati?</strong></p>
+<p>Selain itu, ada banyak manfaat menjadi vegetarian. Selain manfaat kesehatan tubuh, menjadi vegetarian juga akan membuat Anda awet muda. Penyakit-penyakit berbahaya seperti stroke atau kolesterol tinggi juga akan menjauh dari Anda. Meskipun dengan menjadi vegetarian Anda tidak mengkonsumsi daging dan segala hal yang berhubungan dengan daging, Anda tak perlu takut karena Anda masih bisa mengkonsumsi protein nabati dalam makanan-makanan dari tanaman dengan kandungan protein nabati.</p>
+</div>
+ <!--div id="colThree"> <a href="#"><img src="images/ad_120x600.jpg" alt="" height="600" width="120" /></a> </div-->
 <div style="clear: both;">&nbsp;</div>
 </div>
 <div id="footer"> <p align="center"> @copyright 2013 MAYDAY Team </p>
 </div>
-</body></html>
+</body>
+</html>

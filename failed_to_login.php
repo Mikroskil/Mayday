@@ -4,23 +4,59 @@
 <meta charset="UTF-8">
 <title>Makanan Anda Diet Anda</title>
 
-<meta name="keywords" content="" />
-<meta name="description" content="" />
+
+<link href="slide.css" rel="stylesheet" type="text/css" />
 <link href="default.css" rel="stylesheet" type="text/css" />
 <link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
 <link href="css/style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/cufon-titillium-250.js"></script>
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/coin-slider.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
 </head>
 
 
 <body>
-<div id="header">
+<span id="sl_play" class="sl_command">&nbsp;</span>
+	<span id="sl_pause" class="sl_command">&nbsp;</span>
+	<span id="sl_i1" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
+	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
+	
+	<section id="slideshow">
+			
+		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
+		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
+		
+		<div class="container">
+			<div class="c_slider"></div>
+			<div class="slider">
+				<figure>
+					<img src="img/dummy-640x310-1.jpg" alt="" width="815" height="200" />
+					<figcaption>The mirror of soul</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="img/dummy-640x310-2.jpg" alt="" width="815" height="200" />
+					<figcaption>Let's cross that bridge when we come to it</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="img/dummy-640x310-3.jpg" alt="" width="815" height="200" />
+					<figcaption>Sushi<em>(do)</em> time</figcaption>
+				</figure><!--
+				--><figure>
+					<img src="img/dummy-640x310-4.jpg" alt="" width="815" height="200" />
+					<figcaption>Waking Life</figcaption>
+				</figure>
+			</div>
+		</div>
+		
+		<span id="timeline"></span>
+		
+		
+	</section>
+
+
+
 </div>
 <div id="menu">
 <ul>
@@ -117,7 +153,7 @@
 
 <div style="clear: both;">&nbsp;</div>
 </div>
-<div id="footer">
+<div id="footer"> <p align="center"> @copyright 2013 MAYDAY Team </p>
 </div>
 </body>
 </html>

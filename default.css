@@ -11,6 +11,7 @@ h1, h2, h3 {
 
 h2 {
 	font-size: 1.6em;
+	line-height: 40px;
 }
 
 h3 {
@@ -87,7 +88,6 @@ img {
 	display: inline;
 	float:left; 
 	position:relative; 
-	padding-right:100;
 }
 
 #menu a {
@@ -172,6 +172,7 @@ img {
 	padding: 10px 0;
 	background: url(images/img6.gif) repeat-x;
 	font-size: smaller;
+	
 	
 }
 

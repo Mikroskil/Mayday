@@ -16,6 +16,7 @@ if(!empty($hasil))
 	$_SESSION['email'] = $data['Email'];
 	$_SESSION['user']=$data['Username'];
 	$_SESSION['password']=$data['Password'];
+	
 	header('location:../index.php');
 }
 else
