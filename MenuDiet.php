@@ -11,7 +11,7 @@
 <link href="slide.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="default.css" rel="stylesheet" type="text/css" />
-<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
 </head>
@@ -24,12 +24,12 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -51,14 +51,14 @@
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 
 <div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -87,9 +87,9 @@
 					</ul>
 				</li>
 				<li class='active'><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -107,7 +107,7 @@
 
 <div id="ColFour">
 <div style="text-align:justify;">
-<h2>Menu Makanan Diet Sehat Rendah Kalori</h2>
+<h2>PANDUAN INFO KALORI MAKANAN</h2>
 <p>Istilah <strong>kalori</strong> dalam menu diet tentunya sudah sangat umum dikenal. Kalori adalah satuan ukur makanan yang kita konsumsi sehari-hari, dimana kebutuhan setiap orang berbeda tergantung dari usia dan berat badan. Semakin tua usia, semakin sedikit kalori yang dibutuhkan sehari-harinya. Pada umumnya kebutuhan kalori harian dapat di kategorikan sebagai berikut:</p>
 
 
@@ -200,7 +200,7 @@
 </tbody>
 </table>
 <p>&nbsp;</p>
-<p>Untuk menurunkan berat badan, kalori harian harus dikurangi 500 kalori (300 dari makanan dan 200 dari olah raga). Untuk menjaga berat badan agar stabil, ikutilah petunjuk asupan kalori harian di atas.</p>
+<p>Untuk <strong>turun berat badan</strong>, kalori harian harus dikurangi 500 kalori (300 dari makanan dan 200 dari olah raga). Untuk <strong> naik berat badan</strong>, kalori harian harus ditambah 500 kalori. Untuk menjaga berat badan agar stabil, ikutilah petunjuk asupan kalori harian di atas.</p>
 <p>Menjalani pola diet yang sehat sangatlah penting agar berat badan stabil. Kalori berlebih yang kita konsumsi, jika tidak diimbangi dengan olah raga maka akan disimpan di dalam tubuh sebagai lemak, terutama dibagian perut, paha, pinggul dan lengan. Setiap bahan makanan yang kita olah mempunyai kandungan kalori yang berbeda-beda tergantung cara pengolahan dan kuantitasnya.</p>
 <p>Berikut adalah daftar makanan sehari-hari sebagai petunjuk dasar penyusunan menu makanan diet sehat Anda.</p>
 <p>Kandungan kalori beberapa makanan sehari-hari per porsinya antara lain:</p>

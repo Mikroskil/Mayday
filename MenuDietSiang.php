@@ -22,12 +22,12 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -49,14 +49,14 @@
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 
 <div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -85,9 +85,9 @@
 					</ul>
 				</li>
 				<li class='active'><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -104,103 +104,45 @@
 </div>
 
 <div id="ColFour">
-<h2>Menu Makanan Diet Sehat Rendah Kalori</h2>
-<p>Menu makanan diet siang hari dapat di kategorikan sebagai berikut:</p>
+<h2>Menu makanan diet siang hari dapat di kategorikan sebagai berikut:</h2>
 
-<table border="1" cellspacing="0" cellpadding="0">
+<table border="1" cellspacing="0" cellpadding="0" class="tabel">
 <tbody>
 <tr>
-<td valign="top" width="205">
-<p style="text-align: left;" align="center"><strong>NAMA (MAKAN SIANG)</strong></p>
+<td colspan="3">
+<p align="center"><strong>MAKAN SIANG</strong></p>
 </td>
-<td valign="top" width="205">
-<p align="center"><strong>PORSI</strong></p>
-</td>
-<td valign="top" width="205">
-<p align="center"><strong>KALORI</strong></p>
-</td>
+</tr>
+
+<tr>
+<td align="center"> <img src="img/Makan Siang/udangtumis.jpeg"  valign="top" width="150" height="120">Udang Tumis Cabai </br> 1 Porsi </br> 184 kkal</td>
+<td align="center"> <img src="img/Makan Siang/lumpia.jpg"  valign="top" width="150" height="120">Lumpia Ayam Sambal Kacang </br> 1 Porsi </br> 134 kkal</td>
+<td align="center"> <img src="img/Makan Siang/tumisbrokoli.jpg"  valign="top" width="150" height="120">Tumis Brokoli </br> 1 Porsi </br> 61 kkal</td>
+</tr>
+
+<tr>
+<td align="center"> <img src="img/Makan Siang/nasimerah.jpeg"  valign="top" width="150" height="120">Nasi Merah</br> 8 Sendok Makan </br> 108 kkal</td>
+<td align="center"> <img src="img/Makan Siang/sayurasem.jpeg"  valign="top" width="150" height="120">Sayur Asem </br> 1 Porsi </br> 88 kkal</td>
+<td align="center"> <img src="img/Makan Siang/ayambakar.jpg"  valign="top" width="150" height="120">Ayam Panggang Lada Hitam </br> 1 Porsi </br> 90 kkal</td>
 </tr>
 <tr>
-<td valign="top" width="205">Udang tumis cabai</td>
-<td valign="top" width="205">
-<p align="center">1 porsi</p>
-</td>
-<td valign="top" width="205">
-<p align="center">184</p>
-</td>
+<td align="center"> <img src="img/Makan Siang/sayurbayam.jpg"  valign="top" width="150" height="120">Sayur Bayam</br> 1 Porsi </br> 18 kkal</td>
+<td align="center"> <img src="img/Makan Siang/mangga.jpeg"  valign="top" width="150" height="120">Mangga Harum Manis </br> 1/2 Buah </br> 150 kkal</td>
+<td align="center"> <img src="img/Makan Siang/pepaya.jpeg"  valign="top" width="150" height="120">Pepaya </br> 1 Potong </br> 92 kkal</td>
 </tr>
+
 <tr>
-<td valign="top" width="205">Lumpia ayam sambal kacang</td>
-<td valign="top" width="205">
-<p align="center">1 porsi</p>
-</td>
-<td valign="top" width="205">
-<p align="center">134</p>
-</td>
+<td align="center"> <img src="img/Makan Siang/nasigoreng.jpeg"  valign="top" width="150" height="120">Nasi Goreng Ayam</br> 1 Porsi </br> 572 kkal</td>
+<td align="center"> <img src="img/Makan Siang/udanggoreng.jpg"  valign="top" width="150" height="120">Udang Goreng Tepung</br> 1 Porsi</br> 393 kkal</td>
+<td align="center"> <img src="img/Makan Siang/nasisoto.jpeg"  valign="top" width="150" height="120">Nasi Soto Ayam </br> 1 Porsi</br> 596 kkal</td>
 </tr>
+
 <tr>
-<td valign="top" width="205">Tumis brokoli</td>
-<td valign="top" width="205">
-<p align="center">1 porsi</p>
-</td>
-<td valign="top" width="205">
-<p align="center">61</p>
-</td>
+<td align="center"> <img src="img/Makan Siang/bakwan.jpeg"  valign="top" width="150" height="120">Bakwan</br> 1 Porsi </br> 280 kkal</td>
+<td align="center"> <img src="img/Makan Siang/miekering.jpeg"  valign="top" width="150" height="120">Mi Kering Bakso Sapi </br> 1 Porsi</br> 390 kkal</td>
+<td align="center"> <img src="img/Makan Siang/tumistauge.jpg"  valign="top" width="150" height="120">Tumis Taoge dengan Tahu Goreng </br> 1 Porsi</br> 210 kkal</td>
 </tr>
-<tr>
-<td valign="top" width="205">Nasi merah</td>
-<td valign="top" width="205">
-<p align="center">8 sendok makan</p>
-</td>
-<td valign="top" width="205">
-<p align="center">108</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Sayur asem</td>
-<td valign="top" width="205">
-<p align="center">1 porsi</p>
-</td>
-<td valign="top" width="205">
-<p align="center">88</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Ayam panggang lada hitam</td>
-<td valign="top" width="205">
-<p align="center">1 porsi</p>
-</td>
-<td valign="top" width="205">
-<p align="center">90</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Sayur bayam</td>
-<td valign="top" width="205">
-<p align="center">1 porsi</p>
-</td>
-<td valign="top" width="205">
-<p align="center">18</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Mangga harum manis</td>
-<td valign="top" width="205">
-<p align="center">� buah</p>
-</td>
-<td valign="top" width="205">
-<p align="center">150</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Pepaya</td>
-<td valign="top" width="205">
-<p align="center">1 potong</p>
-</td>
-<td valign="top" width="205">
-<p align="center">92</p>
-</td>
-</tr>
+
 </tbody>
 </table>
 (Sumber: Diet Diary Herbalife)
@@ -209,8 +151,7 @@
 <p>Makan Pagi<a href="MenuDietPagi.php"> Selengkapnya... </a></p>
 <p>Makan Malam<a href="MenuDietMalam.php"> Selengkapnya... </a></p>
 
-Menu makanan diet sehat sehari-hari dapat di-variasikan sesuai selera, menurut jumlah kalori harian yang Anda butuhkan, untuk menurunkan berat badan, ataupun menjaga berat badan. Selamat mencoba!
-
+<p>Menu makanan diet sehari-hari dapat di-variasikan sesuai selera, menurut jumlah kalori harian yang Anda butuhkan, baik itu untuk <strong>turun berat badan</strong>, <strong> naik berat badan</strong> ataupun menjaga berat badan. Selamat mencoba!</p>
 </div>
 <!--div id="colThree"> </div-->
 <div style="clear: both;">&nbsp;</div>

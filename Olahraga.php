@@ -25,12 +25,12 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -52,14 +52,14 @@
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 
 	<div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -88,9 +88,9 @@
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -107,7 +107,7 @@
 <div id="ColFour">
 <div style="text-align:justify;">
 <h2>Manfaat Jogging Bagi Tubuh</h2>
-<p>Sebagai upaya menjaga kesehatan, olahraga merupakan suatu keharusan. Tidak perlu pergi ke gym melakukan serangkaian olah raga berat dengan alat-alat gym. Lari-lari kecil atau yang sering disebut jogging juga merupakan aktivitas yang sangat mudah dilakukan dalam olahraga. Tidak perlu mengeluarkan biaya mahal untuk pergi ke pusat kebugaran atau gym, selain itu jogging juga bisa dilakukan dimana saja.</p>
+<p><img src="images/jogging.jpg" alt="" height="120" width="150" align="left" vspace="10px" hspace="10px" /><em>Sebagai upaya menjaga kesehatan, olahraga merupakan suatu keharusan. Tidak perlu pergi ke gym melakukan serangkaian olah raga berat dengan alat-alat gym. Lari-lari kecil atau yang sering disebut jogging juga merupakan aktivitas yang sangat mudah dilakukan dalam olahraga. Tidak perlu mengeluarkan biaya mahal untuk pergi ke pusat kebugaran atau gym, selain itu jogging juga bisa dilakukan dimana saja.</p>
 <p>Hebatnya, selain murah dan mudah, jogging memiliki sederet manfaat bagi kesehatan kita. Kita simak artikel dibawah ini untuk lebih mengetahui manfaat-manfaat dari olahraga jogging baik bagi kesehatan tubuh.</p>
 <p><strong>Manfaat Jogging Bagi Tubuh</strong></p>
 <p>Sebagai aktivitas olahraga, jogging sudah barang tentu membawa serentetan efek positif bagi kesehatan tubuh. Berikut ini adalah manfaat-manfaatnya</p>

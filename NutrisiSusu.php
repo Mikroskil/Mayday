@@ -25,12 +25,12 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -52,14 +52,14 @@
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 
 <div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -88,9 +88,9 @@
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -109,11 +109,11 @@
 <div id="ColFour">
 <div style="text-align:justify;">
 <h2>Nutrisi dan Manfaat Susu Kedelai</h2>
-<p><strong>Sumber Protein Lengkap</strong></p>
-<p> Susu kedelai mengandung protein lengkap dibandingkan sumber protein nabati lainnya dari berbagai macam asam amino yang diperlukan oleh tubuh. Secangkir sari kedelai mengandung 7 gram protein yang berguna mendukung proses metabolisme dan regenerasi sel.</p>
+<p><img src="images/kedelai.jpg" alt="" height="120" width="150" align="left" vspace="10px" hspace="10px" /><em><strong>Sumber Protein Lengkap</strong></p>
+<p>Susu kedelai mengandung protein lengkap dibandingkan sumber protein nabati lainnya dari berbagai macam asam amino yang diperlukan oleh tubuh. Secangkir sari kedelai mengandung 7 gram protein yang berguna mendukung proses metabolisme dan regenerasi sel.</p>
 
 <p><strong>Rendah Lemak</strong></p>
-<p>Mengkonsumsi sari kedelai secara teratur dapat menurunkan kadar kolesterol jahat atau ҌDLҠdalam tubuh dan meningkatkan kadar kolesterol baik atau ҈DLҮ Hal ini dikarenakan sari kedelai rendah lemak dan menurunkan kadar lemak jenuh yang dikonsumsi tubuh, dan selanjutnya menurunkan kadar kolesterol jahat. Kemampuan sari kedelai menurunkan kadar kolesterol dalam tubuh membantu mencegah penyakit kardiovaskular dan serangan jantung.</p>
+<p>Mengkonsumsi sari kedelai secara teratur dapat menurunkan kadar kolesterol jahat atau ?DL?dalam tubuh dan meningkatkan kadar kolesterol baik atau ?DL? Hal ini dikarenakan sari kedelai rendah lemak dan menurunkan kadar lemak jenuh yang dikonsumsi tubuh, dan selanjutnya menurunkan kadar kolesterol jahat. Kemampuan sari kedelai menurunkan kadar kolesterol dalam tubuh membantu mencegah penyakit kardiovaskular dan serangan jantung.</p>
 
 <p><strong>Bebas Laktosa</strong></p>
 <p>Susu kedelai tidak mengandung laktosa, yaitu gula alami yang biasanya terdapat dalam susu sapi. Oleh karena itu, susu kedelai memiliki resiko lebih rendah untuk menimbulkan alergi bila dikonsumsi. Tidak adanya kandungan laktosa juga membuat sari kedelai aman dikonsumsi tanpa menyebabkan gangguan pencernaan.</p>

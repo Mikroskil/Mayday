@@ -25,12 +25,12 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -52,14 +52,14 @@
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 
 <div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -88,9 +88,9 @@
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -107,7 +107,7 @@
 <div id="ColFour">
 <div style="text-align:justify;">
 <h2>Menurunkan Berat Badan Lewat Olahraga dan Pengaturan Pola Makan</h2>
-<p>Menurunkan berat badan dijalani secara berkala dengan dua cara utama yang berkesinambungan yaitu pengaturan pola makan dan olahraga teratur. Kedua cara ini sebaiknya dilakukan secara bersamaan untuk menjaga bentuk tubuh, kebugaran, dan elastisitas kulit ketika berat badan menyusut. Pengaturan pola makan tidak berarti Anda harus mengurangi secara drastis porsi makan harian. Sebaliknya, hal ini justru memicu kenaikan berat badan, sebab pengurangan porsi makanan secara drastis akan menstimulasi otak untuk mengirim sinyal rasa lapar dan menyebabkan Anda ingin makan lebih banyak dari sebelumnya.</p>
+<p><img src="images/polamakan.jpg" alt="" height="120" width="150" align="left" vspace="10px" hspace="10px" /><em>Menurunkan berat badan dijalani secara berkala dengan dua cara utama yang berkesinambungan yaitu pengaturan pola makan dan olahraga teratur. Kedua cara ini sebaiknya dilakukan secara bersamaan untuk menjaga bentuk tubuh, kebugaran, dan elastisitas kulit ketika berat badan menyusut. Pengaturan pola makan tidak berarti Anda harus mengurangi secara drastis porsi makan harian. Sebaliknya, hal ini justru memicu kenaikan berat badan, sebab pengurangan porsi makanan secara drastis akan menstimulasi otak untuk mengirim sinyal rasa lapar dan menyebabkan Anda ingin makan lebih banyak dari sebelumnya.</p>
 
 <p><strong>Menurunkan Berat Badan lewat Pola Makan</strong></p>
 <p>Pengaturan pola makan mencakup jenis, jumlah, dan jam makan yang disesuaikan dengan aktivitas harian. Untuk menurunkan bobot tubuh, asupan kalori menjadi salah satu aspek penting. Tubuh perlu asupan kalori sebagai sumber energi dalam beraktivitas. Untuk itu, pilihlah sumber kalori yang berasal dari karbohidrat kompleks dan berserat. Sebab, nutrisi ini diserap secara berkala oleh tubuh sehingga pemanfaatan kalori sebagai sumber energi berlangsung lebih efektif. Serat yang terkandung di dalamnya membantu kita merasa kenyang walaupun makan dalam porsi kecil.</p>

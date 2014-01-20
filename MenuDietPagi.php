@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -22,12 +25,12 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -49,15 +52,15 @@
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 
 
 <div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -86,9 +89,9 @@
 					</ul>
 				</li>
 				<li class='active'><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -105,89 +108,41 @@
 </div>
 
 <div id="ColFour">
-<h2>Menu Makanan Diet Sehat Rendah Kalori</h2>
-<p>Menu makanan diet pagi hari dapat di kategorikan sebagai berikut:</p>
+<h2>Menu makanan diet pagi hari dapat di kategorikan sebagai berikut:</h2>
 
-<table border="1" cellspacing="0" cellpadding="0">
+<table border="1" cellspacing="0" cellpadding="0" class="tabel">
 <tbody>
 <tr>
-<td valign="top" width="205">
-<p style="text-align: left;" align="center"><strong>NAMA (SARAPAN)</strong></p>
-</td>
-<td valign="top" width="205">
-<p align="center"><strong>PORSI</strong></p>
-</td>
-<td valign="top" width="205">
-<p align="center"><strong>KALORI</strong></p>
+<td colspan="3">
+<p align="center"><strong>SARAPAN</strong></p>
 </td>
 </tr>
-<tr>
-<td valign="top" width="205">Oatmeal</td>
-<td valign="top" width="205">
-<p align="center">1/2 mangkok</p>
-</td>
-<td valign="top" width="205">
-<p align="center">62</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Susu segar</td>
-<td valign="top" width="205">
-<p align="center">1 gelas</p>
-</td>
-<td valign="top" width="205">
-<p align="center">170</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Jus apel</td>
-<td valign="top" width="205">
-<p align="center">1 gelas</p>
-</td>
-<td valign="top" width="205">
-<p align="center">123</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Pancake kentang</td>
-<td valign="top" width="205">
-<p align="center">1 porsi</p>
-</td>
-<td valign="top" width="205">
-<p align="center">190</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Mashed potatoes</td>
-<td valign="top" width="205">
-<p align="center">7 sendok makan</p>
-</td>
-<td valign="top" width="205">
-<p align="center">90</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Roti gandum</td>
-<td valign="top" width="205">
-<p align="center">1 tangkup</p>
-</td>
-<td valign="top" width="205">
-<p align="center">190</p>
-</td>
-</tr>
-<tr>
-<td valign="top" width="205">Telur rebus</td>
-<td valign="top" width="205">
-<p align="center">1 butir</p>
-</td>
-<td valign="top" width="205">
-<p align="center">97</p>
-</td>
-</tr>
-<tr>
 
-</td>
+<tr>
+<td align="center"> <img src="img/Sarapan Pagi/oatmeal.jpeg"  valign="top" width="150" height="120">Oatmeal </br> 1/2 Mangkok </br> 62 kkal</td>
+<td align="center"> <img src="img/Sarapan Pagi/Susu segar.jpeg"  valign="top" width="150" height="120">Susu Segar </br> 1 Gelas </br> 170 kkal</td>
+<td align="center"> <img src="img/Sarapan Pagi/jusapel.jpeg"  valign="top" width="150" height="120">Jus Apel </br> 1 Gelas </br> 123 kkal</td>
 </tr>
+
+<tr>
+<td align="center"> <img src="img/Sarapan Pagi/pancake.jpg"  valign="top" width="150" height="120">Pancake Kentang </br> 1 Porsi </br> 190 kkal</td>
+<td align="center"> <img src="img/Sarapan Pagi/mashed.jpeg"  valign="top" width="150" height="120">Mashed Potatoes </br> 7 Sendok Makan </br> 90 kkal</td>
+<td align="center"> <img src="img/Sarapan Pagi/rotigandum.jpeg"  valign="top" width="150" height="120">Roti Gandum </br> 1 Tangkup </br> 190 kkal</td>
+</tr>
+
+<tr>
+<td align="center"> <img src="img/Sarapan Pagi/telurrebus.jpeg"  valign="top" width="150" height="120">Telur Rebus </br> 1 Butir </br> 97 kkal</td>
+<td align="center"> <img src="img/Sarapan Pagi/lontong.jpeg"  valign="top" width="150" height="120">Lontong Sayur</br> 1 Porsi</br> 420 kkal</td>
+<td align="center"> <img src="img/Sarapan Pagi/buburijo.jpg"  valign="top" width="150" height="120">Bubur Kacang Hijau</br> 1 Porsi</br> 435 kkal</td>
+</tr>
+
+
+<tr>
+<td align="center"> <img src="img/Sarapan Pagi/gadogado.jpeg"  valign="top" width="150" height="120">Gado-gado Lontong</br> 1 Porsi</br> 448 kkal</td>
+<td align="center"> <img src="img/Sarapan Pagi/buburitem.jpg"  valign="top" width="150" height="120">Bubur Kentan Hitam</br> 1 Porsi</br> 408 kkal</td>
+<td align="center"> <img src="img/Sarapan Pagi/rotikeju.jpeg"  valign="top" width="150" height="120">Roti Keju</br> 1 Porsi</br> 186 kkal</td>
+</tr>
+
 </tbody>
 </table>
 (Sumber: Diet Diary Herbalife)
@@ -196,7 +151,7 @@
 <p>Makan Siang<a href="MenuDietSiang.php"> Selengkapnya...</a></p>
 <p>Makan Malam<a href="MenuDietMalam.php"> Selengkapnya...</a></p>
 
-Menu makanan diet sehat sehari-hari dapat di-variasikan sesuai selera, menurut jumlah kalori harian yang Anda butuhkan, untuk menurunkan berat badan, ataupun menjaga berat badan. Selamat mencoba!
+<p>Menu makanan diet sehari-hari dapat di-variasikan sesuai selera, menurut jumlah kalori harian yang Anda butuhkan, baik itu untuk <strong>turun berat badan</strong>, <strong> naik berat badan</strong> ataupun menjaga berat badan. Selamat mencoba!</p>
 </div>
 <!--div id="colThree"> </div-->
 <div style="clear: both;">&nbsp;</div>

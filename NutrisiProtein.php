@@ -25,12 +25,12 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -52,14 +52,14 @@
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 
 <div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -88,9 +88,9 @@
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -109,7 +109,7 @@
 <div id="ColFour">
 <div style="text-align:justify;">
 <h2>Macam Protein dan Kegunaannya</h2>
-<p>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh. Sebagai bahan pembangun, protein memiliki peran dalam pembentukan sel-sel yang baru dan menggantikan sel-sel yang telah mati. Ada dua macam protein yang kita dapatkan dari makanan, protein hewani dan protein nabati. Protein hewani adalah protein yang kita peroleh dari hewan. Kita bisa mengkonsumsi daging sapi, ayam, kambing dll. telur juga merupakan sumber protein hewani yang cukup tinggi.</p>
+<p><img src="images/protein.jpg" alt="" height="120" width="150" align="left" vspace="10px" hspace="10px" /><em>Protein, salah satu kandungan makanan yang diperlukan oleh tubuh ini memiliki peran penting dalam tubuh. Sebagai bahan pembangun, protein memiliki peran dalam pembentukan sel-sel yang baru dan menggantikan sel-sel yang telah mati. Ada dua macam protein yang kita dapatkan dari makanan, protein hewani dan protein nabati. Protein hewani adalah protein yang kita peroleh dari hewan. Kita bisa mengkonsumsi daging sapi, ayam, kambing dll. telur juga merupakan sumber protein hewani yang cukup tinggi.</p>
 <p>Sedangkan protein nabati adalah protein yang bisa kita peroleh dari tanaman. Kita bisa mendapatkan kandungan protein nabati dari kacang-kacangan, juga tahu dan tempe. Jika Anda ingin menerapkan pola hidup sehat dengan menghindari makanan-makanan yang mengandung karbohidrat tinggi, Anda bisa memperbanyak asupan protein dalam tubuh Anda. Protein-protein ini juga bisa digunakan menggantikan karbohidrat dalam tubuh. Meskipun demikian, mengkonsumsi karbohidrat masih diperlukan.</p>
 
 <p><strong>Protein Nabati atau Protein Hewani</strong></p>

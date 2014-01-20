@@ -67,7 +67,7 @@
 <li><a href="TipsKesehatan.php" accesskey="2" title="">Tips Kesehatan</a></li>
 <li><a href="Nutrisi.php" accesskey="3" title="">Nutrisi Makanan</a></li>
 <li><a href="FAQ.php" accesskey="4" title="">FAQ </a></li>
-<li><a href="register.php" accesskey="5" title="">Register</a></li>
+<li><a href="profil.php" accesskey="5" title="">Profil</a></li>
 </ul>
 </div>
 <div id="content">
@@ -148,9 +148,15 @@
 </div>
 <div id="ColFour">
 			<div id="result2">
-			  <h2>Login Bermasalah !</h2>
+			  <h2><?php 
+			  		if(isset($_SESSION['error'])){
+			  			echo $_SESSION['error'];
+			  			unset($_SESSION['error']);
+			  		}
+			  		else
+			  		  echo " "; ?> </h2>
 			</div>
-		  	<p><font size='3'> &nbsp; &nbsp; &nbsp; &nbsp; Silahkan Coba Kembali </font></p>
+		  	<p><font size='3'> &nbsp; &nbsp; &nbsp; &nbsp; Silahkan, <a href="http://localhost/kesehatan/profil.php">Coba Kembali</a> </font></p>
 		  	
 </div>
 

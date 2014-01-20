@@ -67,7 +67,6 @@
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li><a href='Olahraga.php'>Olahraga</a></li>
-						<li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -83,8 +82,7 @@
 				<li ><a href='TipsKesehatan.php' accesskey='2' title=''>Tips Kesehatan</a>
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
-						<li><a href='Olahraga.php'>Olahraga</a></li><li>
-						<li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
+						<li><a href='Olahraga.php'>Olahraga</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -172,15 +170,85 @@
 <h3>Pentingnya Kebutuhan Nutrisi</h3>
 <p>Kebutuhan nutrisi sangat penting untuk diketahui oleh semua orang.<a href="NutrisiPenting.php">  More...</a></p>
 <p><a href="#"><img src="images/img7.jpg" alt="" height="120" width="150" /></a></p>
+<div class="set-box set-block widget wet_bmicalc" id="wet_bmicalc">
+    <div class="set-box-body set-block-body"><div class="set-bar set-blockheader">
+    <div class="t"><b>Kalkulator IMT (Indeks Massa Tubuh)</b></div>
+</div><div class="set-box set-blockcontent">
+    <div class="set-box-body set-blockcontent-body"><script type="text/javascript">
+function wet_bmicalc()
+{
+	var theform = document.getElementById('wet_bmicalc_form');
+	var bmi = document.getElementById('wet_bmicalc_bmi');
+	var pane = document.getElementById('wet_bmicalc_pane');
+	var h = document.getElementById('wet_bmicalc_height').value;
+	h = h.replace(/\./, ".");
+	if ( h > 100 ) h = h / 100;
+
+	var w = document.getElementById('wet_bmicalc_weight').value;
+	w = w.replace(/\./, ".");
+	if ( w * h > 0 ) {
+		bmi.innerHTML = (w / (h * h)).toFixed(1).replace(/\./, ".");
+		pane.style.display = "block";
+	} else {
+		pane.style.display = "none";
+	}
+}
+</script>
+<div style="margin-top:5px;"><noscript><p>This Widget requires Javascript</p></noscript>
+<form id="wet_bmicalc_form" method="post" action="#">
+	<p>
+	<label for="wet_bmicalc_height">Tinggi dalam cm:</label><br>
+	<input id="wet_bmicalc_height" name="wet_bmicalc_height" size="6" type="text">
+	</p>
+	<p>
+	<label for="wet_bmicalc_weight">Berat dalam kg:</label><br>
+	<input id="wet_bmicalc_weight" name="wet_bmicalc_weight" size="6" type="text">
+	</p>
+	<div id="wet_bmicalc_pane" style="display:none">
+	<p><acronym title="Indeks Massa Tubuh">IMT</acronym> Anda adalah <strong id="wet_bmicalc_bmi"></strong>.</p>
+	
+	<p style="text-align: left;"><strong>Tabel Indeks Massa Tubuh</strong></p>
+<table border="1" width="230">
+<tbody>
+<tr>
+<td style="text-align: center;" align="center"><strong>Indeks Massa Tubuh</strong></td>
+<td align="center"><strong>Kategori</strong></td>
+</tr>
+<tr>
+<td align="center">&lt;18</td>
+<td align="center">Kurus</td>
+</tr>
+<tr>
+<td align="center">18,5 s.d 24,9</td>
+<td align="center">Normal</td>
+</tr>
+<tr>
+<td align="center">25 s.d 29,9</td>
+<td align="center">Gemuk</td>
+</tr>
+<tr>
+<td align="center">&gt;30</td>
+<td align="center">Obesitas</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+	</div>
+	<p><input value="Hitung" onclick="wet_bmicalc();" type="button"></p>
+</form></div>		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div>
 
 </div>
 
 <div id="ColFour">
 	<h2>Selamat datang di Situs Kami</h2>
 	<div style="text-align:justify;">
-	<p><em><strong>Makanan Anda Diet Anda</strong></em>
+	<p><img src="images/img7.jpg" alt="" height="120" width="150" align="left" vspace="10px" hspace="10px" /><em><strong>Makanan Anda Diet Anda</strong></em>
 	adalah program dimana pentingnya kesadaran masyarakat atas kesehatan tubuh, memakan 
-	makanan sehat berarti anda peduli dengan kesehatan anda. Karena penyakit yang timbul 
+	makanan sehat berarti anda peduli dengan kesehatan anda. <br clear="left"> Karena penyakit yang timbul 
 	tidak sadar berasal dari makanan yang kita makan sehari-hari, misalnya <i>Junkfood</i> dll.</p>
 	<p>Bagi seseorang yang ingin menjalani program diet, menghitung kalori makanan merupakan suatu keharusan. Pasalnya ada makanan yang dikonsumsi dalam porsi besar tidak akan mempengaruhi berat badan, misalnya sayur-sayuran dan buah-buahan. Begitu juga ada makanan yang meskipun dikonsumsi dalam porsi kecil namun dapat mempengaruhi penambahan berat badan, misalnya biskuit, roti cokelat dan kue tart. Dengan demikian menghitung kalori makanan ketika akan melakukan program diet perlu direncanakan matang. Hal ini bertujuan agar program diet sukses dan sesuai dengan hasil yang harapkan</p>
 	<p>Beberapa tips kesehatan :</p>

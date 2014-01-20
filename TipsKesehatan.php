@@ -26,12 +26,12 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -53,13 +53,13 @@
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 <div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -69,7 +69,6 @@
 					<ul>
 						<li ><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li ><a href='Olahraga.php'>Olahraga</a></li>
-					 <li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -86,13 +85,12 @@
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li><a href='Olahraga.php'>Olahraga</a></li>
-						<li><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -111,7 +109,7 @@
 <div id="ColFour">
 <div style="text-align:justify;">
 <h2>Fakta Bahwa Ternyata Manfaat Air Putih Sangat Banyak</h2>
-<p> Manfaat air putih sepertinya sudah menjadi rahasia umum yang beredar di seluruh masyarakat. Meski masih banyak diantara mereka yang menganggap bahwa manfaat air putih hanya sebagai pelepas dahaga, namun tidak dipungkiri bahwa ternyata air putih memiliki khasiat yang lebih besar. Terutama bagi kesehatan, air putih seperti menjadi konsumsi wajib yang harus diminum setiap hari.</p>
+<p><img src="images/airputih.jpeg" alt="" height="120" width="150" align="left" vspace="10px" hspace="10px" /><em>Manfaat air putih sepertinya sudah menjadi rahasia umum yang beredar di seluruh masyarakat. Meski masih banyak diantara mereka yang menganggap bahwa manfaat air putih hanya sebagai pelepas dahaga, namun tidak dipungkiri bahwa ternyata air putih memiliki khasiat yang lebih besar. Terutama bagi kesehatan, air putih seperti menjadi konsumsi wajib yang harus diminum setiap hari.</p>
 <p>Air putih dipercaya bisa menyembuhkan berbagai macam penyakit dengan cara yang mudah, murah, dan secara kontinu. Meski kebutuhan konsumsi air putih berbeda-beda setiap orang tergantung jenis kelamin, berat badan, cuaca, dan aktivitas sehari-hari, minum air putih secara teratur tetap harus dilakukan secara disiplin. Tidak hanya bagi masyarakat umum, para selebriti pun banyak yang mengungkapkan bahwa rahasia kecantikan mereka adalah hasil dari manfaat air putih yang diminum secara teratur.</p>
 <p>Biasakan minum air putih di pagi hari tak lama setelah anda bangun tidur. Manfaat air putih yang diminum pagi hari akan meningkatkan fungsi metabolisme tubuh. Karena 2/3 bagian tubuh manusia berupa air, tentu fungsi-fungsi bagian tubuh membutuhkan air agar bekerja secara optimal. Sehingga ketika anda minum air putih secara teratur di pagi hari, akan bermanfaat meningkatkan energi dalam tubuh. Selain menambah energi, manfaat air putih yang diminum di pagi hari juga akan membantu fungsi ginjal untuk menghilangkan racun. Seperti yang diketahui proses metabolisme tubuh untuk mencerna makanan dan membuang limbah dari sistem tubuh dilakukan pada malam hari. Karena itu saat pagi hari, air putih digunakan untuk memperlancar pembuangan sisa makanan dan racun-racun tubuh.</p>
 <p>Untuk kecantikan yang menjadi tip para selebriti, manfaat air putih ternyata bisa digunakan sebagai diet menu diet yang paling baik dibanding jenis minuman lain. Seringkali seseorang tidak bisa membedakan mana rasa haus dan rasa lapar. Lalu, mereka akan makan makanan apapun padahal yang tubuh mereka butuhkan hanyalah asupan air minum.</p>

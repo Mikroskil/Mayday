@@ -1,7 +1,7 @@
 <?php
-	
-	session_start();
-	
+session_start();
+if(!empty($_SESSION['user'])) {
+
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -14,7 +14,7 @@
 <link href="slide.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="default.css" rel="stylesheet" type="text/css" />
-<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />	
+<link type="text/css" href="css/jquery-ui-1.8.6.custom.css" rel="Stylesheet" />
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.8.6.custom.min.js"></script>
 <script>
@@ -30,9 +30,9 @@ jQuery(document).ready(function($) {
                  ',height=' + height +
                  ',top='    + top    +
                  ',left='   + left;
-    
+
     window.open(url, 'twitter', opts);
- 
+
     return false;
   });
    });
@@ -47,12 +47,12 @@ jQuery(document).ready(function($) {
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -74,14 +74,14 @@ jQuery(document).ready(function($) {
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 
 <div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -110,9 +110,9 @@ jQuery(document).ready(function($) {
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li class='active'><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li class='active'><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -120,7 +120,7 @@ jQuery(document).ready(function($) {
 <div id="colOne">
 
 <?php echo" <h2> Hai, $_SESSION[Nama]</h2>";
-$usernama = $_SESSION['user']; 
+$usernama = $_SESSION['user'];
 //data yang lama
 $host = "localhost";
 $username = "root";
@@ -173,7 +173,7 @@ if($picprofil!=""){
 else if($_SESSION['Jenis_Kelamin']=='laki-laki'){
 	$picture ='images/male.jpg';
 }else{
-	$picture ='images/female.jpg';
+	$picture ='images/female.png';
 }
 ?>
 <table width="570" border="0" align="center" cellpadding="0">
@@ -181,29 +181,29 @@ else if($_SESSION['Jenis_Kelamin']=='laki-laki'){
 <td height="26" colspan="4">Your Profile Information, <?php echo"<a href='script/logout.php'><font color='#FF0000'> Logout </font></a>"?> </td>
 </tr>
 <tr>
-<td width="129" rowspan="7"><img src="<?php echo $picture ?>" width="129" height="129" alt="no image found"/></td>
+<td width="129" rowspan="7"><img src="<?php echo $picture ?>" width="129" height="129" vspace="10px" hspace="10px" alt="no image found"/></td>
 <td width="130" valign="top"><div align="left">Nama Lengkap </div></td><td >:</td>
-<td width="280" valign="top"><?php echo"$_SESSION[Nama]";?></td>
+<td width="280" valign="top"><?php echo $_SESSION['Nama'];?></td>
 </tr>
 <tr>
 <td valign="top"><div align="left">Jenis Kelamin </div></td><td>:</td>
-<td valign="top"><?php echo"$_SESSION[Jenis_Kelamin]";?></td>
+<td valign="top"><?php echo $_SESSION['Jenis_Kelamin'];?></td>
 </tr>
 <tr>
 <td valign="top"><div align="left">Tinggi Badan </div></td><td>:</td>
-<td valign="top"><?php echo"$_SESSION[Tinggi_Badan] ";?>Cm</td>
+<td valign="top"><?php echo $_SESSION['Tinggi_Badan'];?>Cm</td>
 </tr>
 <tr>
 <td valign="top"><div align="left">Berat Badan </div></td><td>:</td>
-<td valign="top"><?php echo"$_SESSION[Berat_Badan] ";?>Kg</td>
+<td valign="top"><?php echo $_SESSION['Berat_Badan'];?>Kg</td>
 </tr>
 <tr>
 <td valign="top"><div align="left">Tanggal Bergabung </div></td><td>:</td>
-<td valign="top"><?php echo"$_SESSION[tanggal]";?></td>
+<td valign="top"><?php echo $_SESSION['tanggal'];?></td>
 </tr>
 <tr>
 <td valign="top"><div align="left">Email </div></td><td>:</td>
-<td valign="top"><?php echo"$_SESSION[email]";?></td>
+<td valign="top"><?php echo $_SESSION['email'];?></td>
 </tr>
 
 </table>
@@ -251,6 +251,11 @@ echo"<h2>Selamat Anda telah mengikuti program diet sehat selama : <b>". $days . 
   <option value="Mashed potatoes">Mashed potatoes</option>
   <option value="Roti gandum">Roti gandum</option>
   <option value="Telur rebus">Telur rebus</option>
+  <option value="Lontong Sayur">Lontong Sayur</option>
+  <option value="Bubur Kacang Hijau">Bubur Kacang Hijau</option>
+  <option value="Gado gado Lontong">Gado-gado Lontong</option>
+  <option value="Bubur Kentan Hitam">Bubur Kentan Hitam</option>
+  <option value="Roti Keju">Roti Keju</option>
 </select>
 </td>
 </tr>
@@ -266,6 +271,12 @@ echo"<h2>Selamat Anda telah mengikuti program diet sehat selama : <b>". $days . 
   <option value="Sayur bayam">Sayur bayam</option>
   <option value="Mangga harum manis">Mangga harum manis</option>
   <option value="Pepaya">Pepaya</option>
+  <option value="Nasi Goreng Ayam">Nasi Goreng Ayam</option>
+  <option value="Udang Goreng Tepung">Udang Goreng Tepung</option>
+  <option value="Nasi Soto Ayam">Nasi Soto Ayam</option>
+  <option value="Bakwan">Bakwan</option>
+  <option value="Mi Kering Bakso Sapi">Mi Kering Bakso Sapi</option>
+  <option value="Tumis Taoge dengan Tahu">Tumis Taoge dengan Tahu</option>
 </select>
 </td>
 </tr>
@@ -279,6 +290,11 @@ echo"<h2>Selamat Anda telah mengikuti program diet sehat selama : <b>". $days . 
   <option value="Perkedel jagung">Perkedel jagung</option>
   <option value="Cake jeruk">Cake jeruk</option>
   <option value="Kacang polong rebus">Kacang polong rebus</option>
+  <option value="Mi Kuah Pangsit">Mi Kuah Pangsit</option>
+  <option value="Bakmi Cumi Goreng">Bakmi Cumi Goreng</option>
+  <option value="Nasi Goreng Ayam">Nasi Goreng Ayam</option>
+  <option value="Udang Goreng Tepung">Udang Goreng Tepung</option>
+  <option value="Kwetiaw Goreng Kerang">Kwetiaw Goreng Kerang</option>
 </select>
 </td>
 </tr>
@@ -289,7 +305,7 @@ echo"<h2>Selamat Anda telah mengikuti program diet sehat selama : <b>". $days . 
 </div>
 </form>
 
-<?php 
+<?php
 
 if($hasil>0) {
 	$pagi=$data['Pagi'];
@@ -304,14 +320,14 @@ $Siang = isset($_POST['makananSiang']) ? $_POST['makananSiang'] : $Siang;
 $Malam = isset($_POST['makananMalam']) ? $_POST['makananMalam'] : $Malam;
 
 
-	
+
 if($pagi=='Oatmeal'){
 	$kaloriPagi=62;
 }else if($pagi=='Susu Segar'){
 	$kaloriPagi=170;
 }else if($pagi=='Jus Apel'){
 	$kaloriPagi=123;
-}else if($pagi=='Pancake kentang') {
+}else if($pagi=='Pancake Kentang') {
 	$kaloriPagi=190;
 }else if($pagi=='Mashed potatoes') {
 	$kaloriPagi=90;
@@ -319,10 +335,20 @@ if($pagi=='Oatmeal'){
 	$kaloriPagi=190;
 }else if($pagi=='Telur rebus') {
 	$kaloriPagi=97;
+}else if($pagi=='Lontong Sayur') {
+	$kaloriPagi=420;
+}else if($pagi=='Bubur Kacang Hijau') {
+	$kaloriPagi=435;
+}else if($pagi=='Gado gado Lontong') {
+	$kaloriPagi=448;
+}else if($pagi=='Bubur Kentan Hitam') {
+	$kaloriPagi=408;
+}else if($pagi=='Roti Keju') {
+	$kaloriPagi=186;
 }
 else
 	$kaloriPagi=0;
-	
+
 
 if($Siang=='Udang tumis cabai'){
 	$kaloriSiang=184;
@@ -342,12 +368,24 @@ if($Siang=='Udang tumis cabai'){
 	$kaloriSiang=150;
 }else if($Siang=='Pepaya') {
 	$kaloriSiang=92;
+}else if($Siang=='Nasi Goreng Ayam') {
+	$kaloriSiang=572;
+}else if($Siang=='Udang Goreng Tepung') {
+	$kaloriSiang=393;
+}else if($Siang=='Nasi Soto Ayam') {
+	$kaloriSiang=596;
+}else if($Siang=='Bakwan') {
+	$kaloriSiang=280;
+}else if($Siang=='Mi Kering Bakso Sapi') {
+	$kaloriSiang=390;
+}else if($Siang=='Tumis Taoge dengan Tahu Goreng') {
+	$kaloriSiang=210;
 }
 else
 	$kaloriSiang=0;
 
 
-	
+
 if($Malam=='Salad ayam dan sayuran'){
 	$kaloriMalam=256;
 }else if($Malam=='Sup ayam dan sayuran'){
@@ -362,12 +400,22 @@ if($Malam=='Salad ayam dan sayuran'){
 	$kaloriMalam=227;
 }else if($Malam=='Kacang polong rebus') {
 	$kaloriMalam=80;
+}else if($Malam=='Mi Kuah Pangsit') {
+	$kaloriMalam=410;
+}else if($Malam=='Bakmi Cumi Goreng') {
+	$kaloriMalam=506;
+}else if($Malam=='Nasi Goreng Ayam') {
+	$kaloriMalam=572;
+}else if($Malam=='Udang Goreng Tepung') {
+	$kaloriMalam=393;
+}else if($Malam=='Kwetiaw Goreng Kerang') {
+	$kaloriMalam=743;
 }
 else
 	$kaloriMalam=0;
 
 if(isset($_POST['makananPagi']) && isset($_POST['makananSiang']) && isset($_POST['makananMalam'])){
-	$query = mysql_query("UPDATE user SET Pagi='$pagi', Siang='$Siang', Malam='$Malam' 
+	$query = mysql_query("UPDATE user SET Pagi='$pagi', Siang='$Siang', Malam='$Malam'
 	WHERE Username='$usernama'",$connection)or die(mysql_error());
 }
 ?>
@@ -403,12 +451,11 @@ if(isset($_POST['makananPagi']) && isset($_POST['makananSiang']) && isset($_POST
 </div>
 <div style="display:inline">
     <a id="button" onClick="window.open('http://www.facebook.com/sharer/sharer.php?s=100&amp;p[title]=<?php echo $title; ?>&amp;p[summary]=<?php echo $summary;?>&amp;p[url]=<?php echo $url; ?>&amp;&p[images][0]=<?php echo $image;?>', 'sharer', 'toolbar=0,status=0,width=550,height=400');" target="_parent" href="javascript: void(0)">
-    <img src="images/f.jpg" /></a>  
+    <img src="images/f.jpg" /></a>
     <a class="twitter popup" href="http://twitter.com/share?source=sharethiscom&text=<?php echo $summary;?>&url=<?php echo $url; ?>&via=makananandadietanda"><img src="images/tw.jpg"/></a>
     <a href="javascript:void(0);" onclick="popUp=window.open('https://plus.google.com/share?url=<?php echo $url; ?> ','popupwindow','scrollbars=yes,width=800,height=400');popUp.focus();return false"><img src="images/g.jpg" /></a>
     <a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo $url; ?> &title=<?php echo $title;?>&summary=<?php echo $summary;?>&source=BerbagiYuks.con" class="popup"rel="nofollow"><img src="images/in.jpg" /></a>
-    <a href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'><img src="images/pin.jpg" /></a>
-    
+
 </div>
 
 </div>
@@ -418,4 +465,11 @@ if(isset($_POST['makananPagi']) && isset($_POST['makananSiang']) && isset($_POST
 </div>
 <div id="footer"> <p align="center"> @copyright 2013 MAYDAY Team </p>
 </div>
-</body></html>
+</body>
+</html>
+
+<?php }
+else {
+	echo "<script>alert('Anda harus login dahulu.');</script>";
+    echo "<script>history.back(-1);</script>";
+}?>

@@ -22,7 +22,9 @@ h3 {
 p, ul, ol, blockquote {
 	margin-top: 0;
 }
-
+.tabel td{
+	padding: 10px;
+}
 a:link {
 	color: #730000;
 }

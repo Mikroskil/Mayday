@@ -25,12 +25,12 @@
 	<span id="sl_i2" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i3" class="sl_command sl_i">&nbsp;</span>
 	<span id="sl_i4" class="sl_command sl_i">&nbsp;</span>
-	
+
 	<section id="slideshow">
-			
+
 		<a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
 		<a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
-		
+
 		<div class="container">
 			<div class="c_slider"></div>
 			<div class="slider">
@@ -52,14 +52,14 @@
 				</figure>
 			</div>
 		</div>
-		
+
 		<span id="timeline"></span>
-		
-		
+
+
 	</section>
 
 <div id="menu">
-<?php 
+<?php
 			  if(empty($_SESSION['user']))
 			  {
 				echo"
@@ -88,9 +88,9 @@
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
-				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>			  
-				<li><a href='profil.php'>Profil</a></li>          
-              </ul>";	
+				<li><a href='FAQ.php' accesskey='4' title=''>FAQ </a></li>
+				<li><a href='profil.php'>Profil</a></li>
+              </ul>";
 			  }
 			  ?>
 </div>
@@ -108,7 +108,7 @@
 <div style="text-align:justify;">
 <h2>Cara Mengecilkan Perut dengan Mudah</h2>
 
-<p>Salah satu kesalahan utama untuk mengecilkan perut adalah pandangan umum bahwa untuk mendapatkan perut rata, maka latihan harus difokuskan pada satu bagian tubuh, yaitu perut. Kombinasi push-up dan sit-up menjadi latihan yang paling sering dilakukan untuk mencapai target ini, namun seringkali bentuk perut tidak menunjukkan perubahan walaupun latihan telah lama dilakukan.</p>
+<p><img src="images/perutkecil.jpg" alt="" height="120" width="150" align="left" vspace="10px" hspace="10px" /><em>Salah satu kesalahan utama untuk mengecilkan perut adalah pandangan umum bahwa untuk mendapatkan perut rata, maka latihan harus difokuskan pada satu bagian tubuh, yaitu perut. Kombinasi push-up dan sit-up menjadi latihan yang paling sering dilakukan untuk mencapai target ini, namun seringkali bentuk perut tidak menunjukkan perubahan walaupun latihan telah lama dilakukan.</p>
 
 <p><strong>Cara Mengecilkan Perut: Postur dan Latihan Teratur</strong></p>
 <p>Cara pertama untuk mengecilkan perut adalah memperbaiki postur Anda. Seringkali perut terlihat buncit karena kita duduk, berdiri, atau berjalan tidak dalam posisi tegap. Berdiri dengan bersandar pada tembok dan lihat diri Anda di cermin. Perbaiki postur Anda dan perhatikan, posisi telinga usahakan sejajar dengan bahu, dada terbuka lebar atau membusung, dan berat badan didistribusikan secara proporsional pada kedua kaki. Postur ini akan menstimulasi bagian perut untuk tertarik dengan sendirinya ke posisi ideal dan memperbaiki penampilan Anda.</p>

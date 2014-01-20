@@ -86,7 +86,7 @@
 					<ul>
 						<li><a href='NutrisiPenting.php'>Nutrisi</a></li>
 						<li ><a href='Olahraga.php'>Olahraga</a></li>
-						<li class='active'><a href='Kalkulator.php'>Kalkulator IMT</a></li>
+						<liclass='active'><a href='Kalkulator.php'>Kalkulator IMT</a></li>
 					</ul>
 				</li>
 				<li><a href='MenuDiet.php' accesskey='3' title=''>Menu Diet</a></li>
@@ -116,7 +116,7 @@
 <p>Contoh :</p>
 <p>BB = 50 kg, TB = 160 cm<br />
 IMT = 50/(160/100)2 = 50/2,56 = 19,53</p>
-<p style="text-align: left;"><strong>Tabel Indeks Massa Tubuh</strong></p>
+
 <table width="272" border="1">
 <tbody>
 <tr>
@@ -178,9 +178,7 @@ function wet_bmicalc()
 	<input id="wet_bmicalc_weight" name="wet_bmicalc_weight" size="6" type="text">
 	</p>
 	<div id="wet_bmicalc_pane" style="display:none">
-	<p><acronym title="Indeks Massa Tubuh">IMT</acronym> Anda adalah <strong id="wet_bmicalc_bmi"></strong>.</p>
-	
-	<p style="text-align: left;"><strong>Tabel Indeks Massa Tubuh</strong></p>
+	<p><acronym title="">IMT</acronym> Anda adalah <strong id="wet_bmicalc_bmi"></strong>.</p>
 
 <p>&nbsp;</p>
 	</div>
