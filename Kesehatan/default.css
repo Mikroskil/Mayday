@@ -1,5 +1,5 @@
 body {
-	margin: 20px 0;
+	margin: 0 auto;
 	padding: 0;
 	background: #CECECE url(images/img1.gif);
 	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -85,14 +85,16 @@ img {
 
 #menu li {
 	display: inline;
-	
+	float:left; 
+	position:relative; 
+	padding-right:100;
 }
 
 #menu a {
 	display: block;
 	float: left;
 	height: 32px;
-	width:100px;
+    width:8em;
 	padding: 9px 20px 0 20px;
 	text-decoration: none;
 	color: #000000;
@@ -101,28 +103,27 @@ img {
 #menu a:hover, #menu .active a {
 	background: url(images/img4.gif);
 	color: #000000;
+    width:8em;
 	
 }
-#horizontalmenu ul {
-padding: 9px 20px 0 20px; margin:1; list-style:none;
-}
-#horizontalmenu li {
-float:left; position:relative; padding-right:100; display:block;
-border:4px solid #CC55FF;
-border-style:inset;
-}
-#horizontalmenu li ul {
+
+#menu li ul {
+	background: url(images/img3.gif);
     display:none;
-position:absolute;
+	position: absolute;
+    top: 41px;
+    left: 10px;
+    width:8em;
+	z-index: 10;
 }
-#horizontalmenu li:hover ul{
+#menu li:hover ul{
     display:block;
-    background:red;
-height:auto; width:8em;
+	height:auto; 
+	width:135px;
 }
-#horizontalmenu li ul li{
+#menu li ul li{
     clear:both;
-border-style:none;}
+	border-style:none;}
 
 
 /* Content */
@@ -132,6 +133,7 @@ border-style:none;}
 	margin: 0 auto;
 	background: url(images/img8.png);
 	background-size: 100% auto;
+	overflow: hidden;
 }
 
 #colOne {
@@ -153,9 +155,8 @@ border-style:none;}
 	padding: 10px;
 }
 
-#colFour {
+#ColFour {
 	float: left;
-	align: right;
 	width: 480px;
 	height: 800px;
 	padding: 20px 10px 0 10px;
